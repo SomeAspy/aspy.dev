@@ -17,12 +17,24 @@
  * along with aspy.dev.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-.background {
-    background-image: url("../images/Portal2Background.webp");
-    background-position: center;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 100vh;
+body{
+    margin:0;
+}
+
+
+.topNav{
+    background-color:#00a1f1;
     width: 100%;
+    height: 5%;
+}
+
+.topNav a{
+    float:left;
+    color:white;
+    text-align:center;
+    padding: 9px 16px;
+    text-decoration:none;
+    font-size:25px;
+    font-family:'Roboto', sans-serif;
+    font-weight: 700;
 }
