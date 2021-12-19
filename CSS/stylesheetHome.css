@@ -29,7 +29,7 @@ body{
 }
 
 .background {
-    background-image: url("./resources/openLaptop.webp");
+    background-image: url("../images/openLaptop.webp");
     background-position: center;
     background-attachment: fixed;
     background-repeat: no-repeat;
