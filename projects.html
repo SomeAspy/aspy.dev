@@ -9,15 +9,25 @@
 
 <html lang="en">
     <head>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
         <title>Projects</title>
         <meta charset="utf-8">
         <link rel="stylesheet" href="./CSS/stylesheetProjects.css">
         <link rel="stylesheet" href="./CSS/stylesheetGlobal.css">
         <body>
-            <div class="topNav">
-                <a class="active" href="index.html">Home</a>
-                <a href="aboutme.html">About Me</a>
-                <a href="projects.html">Projects</a>
+            <div class="background">
+                <div class="blur">
+                    <div class="topNav">
+                        <a class="active" href="index.html">Home</a>
+                        <a href="about.html">About Me</a>
+                        <a href="projects.html">Projects</a>
+                    </div>
+                    <ul>
+                        <li>
+                            <button onclick="$.getScript('https://aspy.dev/Projects/HS/doNow4-2/doNow4-2.js')">doNow4-2</button>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </body>
     </head>
