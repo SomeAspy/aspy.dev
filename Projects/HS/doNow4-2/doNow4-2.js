@@ -2,11 +2,10 @@
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
-function main(){
-    let str=prompt("Enter A word!");
-    str=str.split("");
-    str.forEach(char => {
-        alert(char);
-        console.log(char);
-    });
-}
+
+let str=prompt("Enter A word!");
+str=str.split("");
+str.forEach(char => {
+    alert(char);
+    console.log(char);
+});
