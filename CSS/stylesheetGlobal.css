@@ -5,14 +5,13 @@
  * https://opensource.org/licenses/MIT
  */
 
-
 body{
     margin:0;
 }
 
-
 .topNav{
-    background-color:#00a1f1;
+    background-color:#141414;
+    opacity: .5;
     width: 100%;
     height: 5%;
 }
