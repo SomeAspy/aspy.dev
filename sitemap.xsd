@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <xs:element name="urlset">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="url" maxOccurs="unbounded">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="loc" type="xs:string" />
+                            <xs:element name="changefreq" type="xs:string" />
+                            <xs:element name="priority" type="xs:string" />
+                            <xs:element name="lastmod" minOccurs="0" type="xs:string" />
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>
