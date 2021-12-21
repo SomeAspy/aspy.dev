@@ -1,0 +1,17 @@
+/**
+ * Copyright (c) 2021 Aiden Baker
+ *
+ * This software is released under the MIT License.
+ * https://opensource.org/licenses/MIT
+ */
+
+
+.background {
+    background-image: url("../images/backgroundAbout.webp");
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
