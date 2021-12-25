@@ -1,5 +1,5 @@
 /**
- * Copyright (c) 2021 Aiden Baker
+ * Copyright (c) 2021-2022 Aiden Baker
  *
  * This software is released under the MIT License.
  * https://opensource.org/licenses/MIT
@@ -25,4 +25,15 @@ body{
     font-size:25px;
     font-family:'Roboto', sans-serif;
     font-weight: 700;
+}
+
+.copyright{
+    position:absolute;
+    left:50%;
+    bottom:0px;
+    transform:translate(-50%, -50%);
+    margin: 0 auto;
+    color:rgb(247, 247, 255);
+    font-family: Roboto, sans-serif;
+    font-size: 10px;
 }
