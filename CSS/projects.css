@@ -5,17 +5,12 @@
  * https://opensource.org/licenses/MIT
  */
 
-.blur {
-    backdrop-filter: blur(4px);
-    height: 100%;
-    width:  100%;
-}
-
 body {
     background-color: #141414;
 }
 
 .background {
+    filter: blur(4px);
     background-image: url("../images/backgroundProjects.webp");
     background-position: left;
     background-attachment: fixed;

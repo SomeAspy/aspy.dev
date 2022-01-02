@@ -5,13 +5,10 @@
  * https://opensource.org/licenses/MIT
  */
 
-.blur {
-    backdrop-filter: blur(7px);
-    height: 100%;
-    width:  100%;
-}
+
 
 .background {
+    filter:blur(7px);
     background:
         linear-gradient(
             rgba(0, 0, 0, 0.5),

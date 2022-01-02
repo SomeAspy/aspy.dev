@@ -10,6 +10,8 @@ body{
 }
 
 .topNav{
+    position: fixed;
+    top:0;
     background-color:#141414;
     opacity: .5;
     width: 100%;
@@ -30,7 +32,7 @@ body{
 .copyright{
     position:absolute;
     left:50%;
-    bottom:0px;
+    bottom:10px;
     transform:translate(-50%, -50%);
     margin: 0 auto;
     color:rgb(247, 247, 255);
