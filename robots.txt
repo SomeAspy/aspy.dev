@@ -1,0 +1,8 @@
+User-agent: *
+Disallow: /external/
+Disallow: /internal/
+Disallow: /*.xml
+Disallow: /*.txt
+Disallow: /*.md
+Disallow: /.vscode/
+Sitemap: https://aspy.dev/sitemap.xml
