@@ -51,3 +51,18 @@ body{
     font-family: Roboto, sans-serif;
     font-size:15px;
 }
+
+.center{
+    position:absolute;
+    margin:auto;
+    left:50%;
+    top:50%;
+    transform: translate(-50%, -50%);
+}
+
+a:link{
+    color:rgb(247, 247, 255);
+}
+a:visited{
+    color:rgb(247, 247, 255);
+}

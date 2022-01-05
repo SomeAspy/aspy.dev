@@ -1,9 +1,14 @@
+Copyright (c) 2022 Aiden Baker
+
+This software is released under the MIT License.
+https://opensource.org/licenses/MIT
+
 HIGH PRIORITY
     transfer registrar (1/8/22)
     After transfer, turn on DNSSEC
-    cleanup projects page
 
 NORMAL PRIORITY
+    hover over effects for projects cards
     Set up login page and secure.aspy.dev
     fix ssh.aspy.dev
     make pages look better on mobile

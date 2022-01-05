@@ -3,6 +3,7 @@
         "dayname",
         "daynum",
         "leapyear",
+        "QOTD",
         "Tixte"
     ]
 }
