@@ -15,7 +15,6 @@ NORMAL PRIORITY
     setup lanyard
     design about page
     design contact page
-    setup email (amb@aspy.dev?)
     give projects individual pages
 
 LOW PRIORITY
@@ -55,20 +54,6 @@ PLANS
         Management:
             Auto renew certificate
     aspy.dev
-        email
-            Authentication
-                API keys are probably last resort.
-                fall back on google authentication?
-            UI
-                Not needed, but would be nice.
-                would be on email.aspy.dev
-                darkmode is a plus
-            Protocols
-                IMAP, fall back to POP3 if not possible
-            Forwarding
-                Must support forwarding to personal email
-                allow replying
-                must not expose email it is forwarded to
         SEO
             auto update sitemap.xml
         Frontend
