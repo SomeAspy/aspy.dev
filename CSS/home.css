@@ -4,9 +4,6 @@
  * This software is released under the MIT License.
  * https://opensource.org/licenses/MIT
  */
-
-
-
 .background {
     filter:
         blur(4px);
@@ -23,11 +20,10 @@
     height: 101vh;
     width: 101%;
 }
-
 .centerText {
     text-align: center;
     color: rgb(247, 247, 255);
-    font-size: 6vh;
+    font-size: 250%;
     margin:0;
     position: absolute;
     top: 50%;

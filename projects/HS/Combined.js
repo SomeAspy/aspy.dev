@@ -4,7 +4,6 @@
 // https://opensource.org/licenses/MIT
 "use strict";
 //these scripts are adapted to run faster on the site, and to be embedded. They are functionally the same as the original scripts.
-
 //Do now 4.2 - original: https://github.com/SomeAspy/SchoolRepos/tree/main/HighSchool/JavaScript/DoNow4.2
 function fourTwo(){
     prompt('Enter A word!').split("").forEach(char=>{

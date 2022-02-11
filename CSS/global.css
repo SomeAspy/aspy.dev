@@ -22,7 +22,7 @@ body{
     display:flex;
 }
 
-.navBar item{
+.navBar a{
     margin:1px;
     float:left;
     color:white;
@@ -37,7 +37,7 @@ body{
     backface-visibility: hidden;
 }
 
-.navBar item:hover{
+.navBar a:hover{
     transform:scale(1.1);
 }
 
