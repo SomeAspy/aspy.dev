@@ -23,17 +23,16 @@ https://opensource.org/licenses/MIT
         <link rel="stylesheet" href="./CSS/global.css">
         <script src="./scripts/redirectIE.js"></script>
         <script defer src="./projects/HS/Combined.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script>
+            $(function(){
+                $("#navBar").load("./internal/elements/navbar/navbar.html");
+            });
+        </script>
     </head>
     <body>
         <div class="background"></div>
-            <div class="topNav">
-                <a class="active" href="https://aspy.dev">Home</a>
-                <a href="https://aspy.dev/about">About Me</a>
-                <a href="https://aspy.dev/projects">Projects</a>
-                <a href="https://aspy.dev/contact">Contact</a>
-                <meta name="viewport" content="width=device-width, initial-scale=1.0">
-                <meta name="description" content="Aiden's website. I do things here.">
-            </div>
+        <div id="navBar"></div>
             <div class="center">
                 <div class="gridContainer">
                     <div onclick="window.location.assign('https://github.com/SomeAspy/SchoolRepos/tree/main/HighSchool/JavaScript')" class="gridItem">
@@ -91,6 +90,10 @@ https://opensource.org/licenses/MIT
                     <div onclick="window.location.assign('https://github.com/SomeAspy/SCP-079')" class="gridItem">
                         <div class="title">SCP-079</div>
                         <div class="description">A Discord bot written in TypeScript, using Discord.JS 13, slash commands only</div>
+                    </div>
+                    <div onclick="window.location.assign('https://duckduckno.com')" class="gridItem">
+                        <div class="title">DuckDuckNo</div>
+                        <div class="description">Just a front page of a slightly different DuckDuckGo website</div>
                     </div>
                 </div>
             </div>
