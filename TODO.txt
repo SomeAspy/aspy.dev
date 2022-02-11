@@ -14,12 +14,11 @@ NORMAL PRIORITY
     give projects individual pages
 
 LOW PRIORITY
-    fix control.aspy.dev
+    fix control.aspy.dev (SSL issue with cockpit)
     Fix tixte external site favicon and embed
     python projects. seems possible as it worked in console, but needs to be displayed somehow on page
     Java projects. Unsure if this is even possible anymore.
     wildcard certificate
-    move website to self hosting
     remove white border from blur property
 
 PLANS
@@ -37,18 +36,6 @@ PLANS
             sitemap.xml
         Frontend
             403 pages
-    url.aspy.dev
-        URL shortener backend
-            ideally uses ZWS, but 4 letter short URLs are fine
-            API key
-        Frontend
-            404 pages
-            base url landing page
-        SEO
-            robots.txt
-            sitemap.xml (if possible)
-        Management:
-            Auto renew certificate
     aspy.dev
         SEO
             auto update sitemap.xml

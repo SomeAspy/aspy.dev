@@ -30,6 +30,12 @@ body{
     font-size:25px;
     font-family:'Roboto', sans-serif;
     font-weight: 700;
+    transition: all .2s ease-in-out;
+    backface-visibility: hidden;
+}
+
+.topNav a:hover{
+    transform:scale(1.1);
 }
 
 .copyright{

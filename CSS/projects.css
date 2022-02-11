@@ -43,6 +43,11 @@ body {
     text-decoration:none;
     display: flex;
     flex-direction: column;
+    transition: all .2s ease-in-out;
+}
+
+.gridItem:hover{
+    transform:scale(1.05);
 }
 
 .title{
