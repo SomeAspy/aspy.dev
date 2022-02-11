@@ -16,8 +16,6 @@ https://opensource.org/licenses/MIT
         <meta content="https://aspy.dev/images/embed.gif" property="og:image"/>
         <meta content="#FF0000" property="og:color"/>
         <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="description" content="Aiden's website. I do things here.">
         <link rel="icon" type="image/x-icon" href="https://aspy.dev/images/favicon.ico" >
         <title>Projects</title>
         <meta charset="utf-8">
@@ -25,16 +23,17 @@ https://opensource.org/licenses/MIT
         <link rel="stylesheet" href="./CSS/global.css">
         <script src="./scripts/redirectIE.js"></script>
         <script defer src="./projects/HS/Combined.js"></script>
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-        <script>
-            $(function(){
-                $("#navBar").load("./internal/elements/navbar/navbar.html");
-            });
-        </script>
     </head>
     <body>
         <div class="background"></div>
-        <div id="navBar"></div>
+            <div class="navBar">
+                <item class="active" href="https://aspy.dev">Home</item>
+                <item href="https://aspy.dev/about">About Me</item>
+                <item href="https://aspy.dev/projects">Projects</item>
+                <item href="https://aspy.dev/contact">Contact</item>
+                <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                <meta name="description" content="Aiden's website. I do things here.">
+            </div>
             <div class="center">
                 <div class="gridContainer">
                     <div onclick="window.location.assign('https://github.com/SomeAspy/SchoolRepos/tree/main/HighSchool/JavaScript')" class="gridItem">
