@@ -4,7 +4,7 @@
  * This software is released under the MIT License.
  * https://opensource.org/licenses/MIT
  */
-.topNav{
+.navBar{
     position: fixed;
     top:0;
     background-color:#141414;
@@ -14,7 +14,7 @@
     display:flex;
 }
 
-.topNav item{
+.navBar item{
     margin:1px;
     float:left;
     color:white;
@@ -29,6 +29,6 @@
     backface-visibility: hidden;
 }
 
-.topNav item:hover{
+.navBar item:hover{
     transform:scale(1.1);
 }
