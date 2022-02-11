@@ -3,9 +3,10 @@ Copyright (c) 2022 Aiden Baker
 This software is released under the MIT License.
 https://opensource.org/licenses/MIT
 
+HIGH PRIORITY
+    Compartmentalize the NavBar.
 
 NORMAL PRIORITY
-    hover over effects for projects cards
     Set up login page and secure.aspy.dev
     make pages look better on mobile
     setup lanyard
