@@ -12,7 +12,7 @@ body{
     overflow:hidden;
 }
 
-.topNav{
+.navBar{
     position: fixed;
     top:0;
     background-color:#141414;
@@ -22,7 +22,7 @@ body{
     display:flex;
 }
 
-.topNav item{
+.navBar item{
     margin:1px;
     float:left;
     color:white;
@@ -37,7 +37,7 @@ body{
     backface-visibility: hidden;
 }
 
-.topNav item:hover{
+.navBar item:hover{
     transform:scale(1.1);
 }
 
