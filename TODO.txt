@@ -5,10 +5,12 @@ https://opensource.org/licenses/MIT
 
 HIGH PRIORITY
     Compartmentalize the NavBar.
+    Make NavBar links work on mobile.
+    Make site responsive for mobile users.
+    
 
 NORMAL PRIORITY
     Set up login page and secure.aspy.dev
-    make pages look better on mobile
     setup lanyard
     design about page
     design contact page
@@ -20,13 +22,12 @@ LOW PRIORITY
     python projects. seems possible as it worked in console, but needs to be displayed somehow on page
     Java projects. Unsure if this is even possible anymore.
     wildcard certificate
-    remove white border from blur property
+    remove white border from blur property.
 
 PLANS
     secure.aspy.dev
         login
             one time codes for access
-            codes@aspy.dev
             Cloudflare Teams?
             verify across all pages behind login
         content
