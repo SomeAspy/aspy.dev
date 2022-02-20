@@ -23,7 +23,6 @@ PLANS
     secure.aspy.dev
         login
             one time codes for access
-            codes@aspy.dev
             Cloudflare Teams?
             verify across all pages behind login
         content
