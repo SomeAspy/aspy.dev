@@ -11,7 +11,7 @@ body {
 
 .background {
     filter: blur(4px);
-    background-image: url("../images/backgroundProjects.webp");
+    background-image: url(../images/backgroundProjects.webp);
     background-position: left;
     background-attachment: fixed;
     background-repeat: no-repeat;

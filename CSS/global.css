@@ -6,74 +6,64 @@
  *
  * This CSS file is used across ALL pages on aspy.dev
 */
-
 body{
     margin:0;
     overflow:hidden;
 }
-
 .navBar{
-    position: fixed;
+    position:fixed;
     top:0;
     background-color:#141414;
-    opacity: .5;
-    width: 100%;
-    height: 5%;
+    opacity:.5;
+    width:100vw;
+    height:5vh;
     display:flex;
 }
-
 .navBar a{
     margin:1px;
     float:left;
-    color:white;
+    color:#FFF;
     text-align:center;
-    margin-left: 1%;
+    margin-left:1%;
     margin-top:.4%;
     text-decoration:none;
     font-size:3vh;
-    font-family:'Roboto', sans-serif;
-    font-weight: 700;
-    transition: all .2s ease-in-out;
-    backface-visibility: hidden;
+    font-family:'Roboto',sans-serif;
+    font-weight:700;
+    transition:all .2s ease-in-out;
+    backface-visibility:hidden;
+    pointer-events:all;
 }
-
 .navBar a:hover{
     transform:scale(1.1);
 }
-
 .copyright{
     position:absolute;
     left:50%;
     bottom:-20px;
     transform:translate(-50%, -50%);
-    margin: 0 auto;
-    color:rgb(247, 247, 255);
-    font-family: Roboto, sans-serif;
-    font-size: 10px;
+    margin:0 auto;
+    color:#FFF;
+    font-family:Roboto,sans-serif;
+    font-size:10px;
 }
-
 .source{
     position:absolute;
     left:50%;
     bottom:10px;
-    transform:translate(-50%, -50%);
-    margin: 0 auto;
-    color:rgb(247, 247, 255);
-    font-family: Roboto, sans-serif;
+    transform:translate(-50%,-50%);
+    margin:0 auto;
+    color:#FFF;
+    font-family:Roboto,sans-serif;
     font-size:15px;
 }
-
 .center{
     position:absolute;
     margin:auto;
     left:50%;
     top:50%;
-    transform: translate(-50%, -50%);
+    transform:translate(-50%,-50%);
 }
-
-a:link{
-    color:rgb(247, 247, 255);
-}
-a:visited{
-    color:rgb(247, 247, 255);
+a:link,a:visited{
+    color:#FFF;
 }

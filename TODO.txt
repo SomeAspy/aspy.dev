@@ -5,22 +5,19 @@ https://opensource.org/licenses/MIT
 
 HIGH PRIORITY
     Compartmentalize the NavBar.
+    make pages look better on mobile
 
 NORMAL PRIORITY
-    Set up login page and secure.aspy.dev
-    make pages look better on mobile
     setup lanyard
     design about page
     design contact page
-    give projects individual pages
 
 LOW PRIORITY
+    Set up login page and secure.aspy.dev
     fix control.aspy.dev (SSL issue with cockpit)
-    Fix tixte external site favicon and embed
     python projects. seems possible as it worked in console, but needs to be displayed somehow on page
     Java projects. Unsure if this is even possible anymore.
     wildcard certificate
-    remove white border from blur property
 
 PLANS
     secure.aspy.dev

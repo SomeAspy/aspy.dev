@@ -10,4 +10,5 @@ Disallow: /*.xml
 Disallow: /*.txt
 Disallow: /*.md
 Disallow: /.vscode/
+Disallow: /.github/
 Sitemap: https://aspy.dev/sitemap.xml
