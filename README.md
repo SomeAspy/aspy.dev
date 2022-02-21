@@ -1,7 +1,7 @@
 # Aspy.dev
 My Personal website that I work on in my free time.
 
-It may not look the best but I'm proud of it. I'm not with HTML or CSS, but its been a lot of fun and a great learning experience working on this. When I started this project I had no idea how CSS worked.
+It may not look the best but I'm proud of it. I'm not good with HTML or CSS, but its been a lot of fun and a great learning experience working on this. When I started this project I had no idea how CSS worked.
 
 This site also incorporates some stuff for its subdomains, like the stuff under /external
 
