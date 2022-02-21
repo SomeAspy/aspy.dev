@@ -8,8 +8,8 @@
 
 <html lang="en">
     <head>
-        <link rel="./CSS/contact.css">
-        <link rel="./CSS/global.css">
+        <link rel="stylesheet" href="./CSS/contact.css">
+        <link rel="stylesheet" href="./CSS/global.css">
         <meta content="Aiden's Website" property="og:title"/>
         <meta content="I'm a student studying computer networking and computer science. I also have autism. I work as a full time idiot." property="og:description"/>
         <meta content="https://aspy.dev/contact" property="og:url"/>
@@ -23,6 +23,7 @@
         <meta name="description" content="Aiden's website. I do things here.">
     </head>
     <body>
+        <div class="background"></div>
         <div>
             <div class="navBar">
                 <a class="active" href="https://aspy.dev">Home</a>
@@ -30,10 +31,18 @@
                 <a href="https://aspy.dev/projects">Projects</a>
                 <a href="https://aspy.dev/contact">Contact</a>
             </div>
+            <div class="contactGrid center">
+                <div class="contactItem">
+                    <img class="icon" src="./images/discord.webp" alt="Discord Logo">
+                    <div class="contactInfo">SomeAspy#9999</div>
+                </div>
+                <div class="contactItem">
+                    <img class="icon" src="./images/github.webp" alt="Github Logo">
+                    <div class="contactInfo">SomeAspy</div>
+                </div>
+            </div>
         </div>
         <footer class="source">This website is <a href="https://github.com/SomeAspy/aspy.dev/blob/main/contact.html">open source</a></footer>
-        <footer class="copyright">
-            <p>&copy; Aiden Baker 2021-2022</p>
-        </footer>
+        <footer class="copyright"><p>&copy; Aiden Baker 2021-2022</p></footer>
     </body>
 </html>
