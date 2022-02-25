@@ -4,6 +4,7 @@
  * This software is released under the MIT License.
  * https://opensource.org/licenses/MIT
  */
+@import url(./global.css);
 .background {
     background-image: url(../images/backgroundProjects.webp); /* THIS IS A TEMPORARY BACKGROUND IMAGE */
     background-position: center;
