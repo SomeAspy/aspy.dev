@@ -11,13 +11,14 @@ body{
     overflow:hidden;
 }
 .navBar{
-    position:fixed;
+    position:absolute;
     top:0;
     background-color:#141414;
     opacity:.5;
     width:100vw;
     height:5vh;
-    display:flex;
+    display:grid;
+    grid-template-columns:repeat(4,1fr);
 }
 .navBar a{
     margin:1px;
@@ -25,7 +26,7 @@ body{
     color:#FFF;
     text-align:center;
     margin-left:1%;
-    margin-top:.4%;
+    margin-top:.6vh;
     text-decoration:none;
     font-size:3vh;
     font-family:'Roboto',sans-serif;
@@ -38,7 +39,7 @@ body{
     transform:scale(1.1);
 }
 .copyright{
-    position:absolute;
+    position:fixed;
     left:50%;
     bottom:-20px;
     transform:translate(-50%, -50%);
@@ -48,7 +49,7 @@ body{
     font-size:10px;
 }
 .source{
-    position:absolute;
+    position:fixed;
     left:50%;
     bottom:10px;
     transform:translate(-50%,-50%);
@@ -66,4 +67,10 @@ body{
 }
 a:link,a:visited{
     color:#FFF;
+}
+@media(max-width:600px){
+    .navBar {
+        height:10vh;
+        grid-template-columns:repeat(2,1fr);
+    }
 }

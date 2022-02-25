@@ -67,3 +67,16 @@ body {
     text-align: center;
     flex-wrap: wrap;
 }
+@media(max-width:600px){
+    .gridContainer{
+        margin-top: 20vh;
+        grid-template-columns:repeat(2,1fr);
+    }
+    .gridItem{
+        width:45vw;
+        height:25vh;
+    }
+    body{
+        overflow-y: scroll;
+    }
+}

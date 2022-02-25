@@ -5,16 +5,15 @@ https://opensource.org/licenses/MIT
 
 HIGH PRIORITY
     Compartmentalize the NavBar.
-    make pages look better on mobile
 
 NORMAL PRIORITY
     setup lanyard
     design about page
     design contact page
+    make footer stick to bottom and not move with screen
 
 LOW PRIORITY
     Set up login page and secure.aspy.dev
-    fix control.aspy.dev (SSL issue with cockpit)
     python projects. seems possible as it worked in console, but needs to be displayed somehow on page
     Java projects. Unsure if this is even possible anymore.
     wildcard certificate

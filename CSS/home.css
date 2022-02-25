@@ -34,3 +34,8 @@ html{
     height:100%;
     overflow:hidden;
 }
+@media(max-width:600px){
+    .centerText {
+        font-size: 6vw;
+    }
+}
