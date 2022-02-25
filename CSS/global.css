@@ -67,12 +67,3 @@ body{
 a:link,a:visited{
     color:#FFF;
 }
-/*none of this works wtf */
-@media(not(hover))or(min-width:600px){
-    a:link a:visited{
-        color:red;
-    }
-    html{
-        display:none;
-    }
-}
