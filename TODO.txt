@@ -10,7 +10,6 @@ NORMAL PRIORITY
     setup lanyard
     design about page
     design contact page
-    make footer stick to bottom and not move with screen
 
 LOW PRIORITY
     Set up login page and secure.aspy.dev
@@ -22,7 +21,6 @@ PLANS
     secure.aspy.dev
         login
             one time codes for access
-            Cloudflare Teams?
             verify across all pages behind login
         content
             resume
@@ -36,5 +34,4 @@ PLANS
         SEO
             auto update sitemap.xml
         Frontend
-            400 class pages
             500 class pages
