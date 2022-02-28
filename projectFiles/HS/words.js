@@ -55,7 +55,7 @@ const noun = [
     'amount',
     'amusement',
     'anatomy',
-    'anethesiologist',
+    'anesthesiologist',
     'anger',
     'angle',
     'angora',
