@@ -3,16 +3,13 @@
  *
  * This software is released under the MIT License.
  * https://opensource.org/licenses/MIT
+ *
  */
+
 @import url(./global.css);
 .background {
-    filter:
-        blur(4px);
-    background:
-        linear-gradient(
-            rgba(0, 0, 0, 0.5),
-            rgba(0, 0, 0, 0.5)
-        ),
+    filter: blur(4px);
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
         url(../images/backgroundHome.webp);
     background-position: center;
     background-attachment: scroll;
@@ -20,21 +17,21 @@
     background-size: cover;
     height: 105vh;
     width: 105vw;
-    margin:-1%;
+    margin: -1%;
     pointer-events: none;
 }
 .centerText {
     text-align: center;
-    color:#FFF;
+    color: #fff;
     font-size: 3vw;
     font-family: Roboto, sans-serif;
 }
-html{
-    margin:0;
-    height:100%;
-    overflow:hidden;
+html {
+    margin: 0;
+    height: 100%;
+    overflow: hidden;
 }
-@media(max-width:600px){
+@media (max-width: 600px) {
     .centerText {
         font-size: 6vw;
     }

@@ -5,72 +5,74 @@
  * https://opensource.org/licenses/MIT
  *
  * This CSS file is used across ALL pages on aspy.dev
-*/
-body{
-    margin:0;
-    overflow:hidden;
+ *
+ */
+
+body {
+    margin: 0;
+    overflow: hidden;
 }
-.navBar{
-    position:absolute;
-    top:0;
-    background-color:#141414;
-    opacity:.5;
-    width:100vw;
-    height:5vh;
-    display:grid;
-    grid-template-columns:repeat(4,1fr);
+.navBar {
+    position: absolute;
+    top: 0;
+    background-color: #141414;
+    opacity: 0.5;
+    width: 100vw;
+    height: 5vh;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
 }
-.navBar a{
-    margin:1px;
-    float:left;
-    color:#FFF;
-    text-align:center;
-    margin-left:1%;
-    margin-top:.6vh;
-    text-decoration:none;
-    font-size:3vh;
-    font-family:'Roboto',sans-serif;
-    font-weight:700;
-    transition:all .2s ease-in-out;
-    backface-visibility:hidden;
-    pointer-events:all;
+.navBar a {
+    margin: 1px;
+    float: left;
+    color: #fff;
+    text-align: center;
+    margin-left: 1%;
+    margin-top: 0.6vh;
+    text-decoration: none;
+    font-size: 3vh;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    transition: all 0.2s ease-in-out;
+    backface-visibility: hidden;
+    pointer-events: all;
 }
-.navBar a:hover{
-    transform:scale(1.1);
+.navBar a:hover {
+    transform: scale(1.1);
 }
-.copyright{
-    position:fixed;
-    left:50%;
-    bottom:-20px;
-    transform:translate(-50%, -50%);
-    margin:0 auto;
-    color:#FFF;
-    font-family:Roboto,sans-serif;
-    font-size:10px;
+.copyright {
+    position: fixed;
+    left: 50%;
+    bottom: -20px;
+    transform: translate(-50%, -50%);
+    margin: 0 auto;
+    color: #fff;
+    font-family: Roboto, sans-serif;
+    font-size: 10px;
 }
-.source{
-    position:fixed;
-    left:50%;
-    bottom:10px;
-    transform:translate(-50%,-50%);
-    margin:0 auto;
-    color:#FFF;
-    font-family:Roboto,sans-serif;
-    font-size:15px;
+.source {
+    position: fixed;
+    left: 50%;
+    bottom: 10px;
+    transform: translate(-50%, -50%);
+    margin: 0 auto;
+    color: #fff;
+    font-family: Roboto, sans-serif;
+    font-size: 15px;
 }
-.center{
-    position:absolute;
-    margin:auto;
-    left:50%;
-    top:50%;
-    transform:translate(-50%,-50%);
+.center {
+    position: absolute;
+    margin: auto;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
 }
-a:link,a:visited{
-    color:#FFF;
+a {
+    color: #fff;
 }
-@media(max-width:600px){
+@media (max-width: 600px) {
     .navBar {
-        height:10vh;
-        grid-template-columns:repeat(2,1fr);
+        height: 10vh;
+        grid-template-columns: repeat(2, 1fr);
     }
 }

@@ -4,7 +4,9 @@
  * This software is released under the MIT License.
  * https://opensource.org/licenses/MIT
  */
-.guess { /*define the green circles*/
+
+.guess {
+    /*define the green circles*/
     height: 25px;
     width: 25px;
     background-color: lime;

@@ -19,17 +19,17 @@ It will return the index of the item you searched, and if it cannot be found it 
 https://www.w3schools.com/jsref/jsref_indexof_array.asp
 */
 
-let x = ["bop", "pp", "eat", "car", "etc", "vroom"];
+let x = ['bop', 'pp', 'eat', 'car', 'etc', 'vroom'];
 
 function FirstWordThatStartsWith(list, letter) {
-    let output=null;
-    list.forEach(element => {
-        if(element.startsWith(letter)) {
-            output=element;
+    let output = null;
+    list.forEach((element) => {
+        if (element.startsWith(letter)) {
+            output = element;
         }
     });
     return output;
 }
-console.log(FirstWordThatStartsWith(x,"e"));
+console.log(FirstWordThatStartsWith(x, 'e'));
 
 // takes list and letter as input, and will do its thing. replace that with e for first e word.

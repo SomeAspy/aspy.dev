@@ -4,7 +4,8 @@
  * This software is released under the MIT License.
  * https://opensource.org/licenses/MIT
  */
- @import url(./global.css);
+
+@import url(./global.css);
 body {
     background-color: #141414;
 }

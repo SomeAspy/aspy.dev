@@ -3,7 +3,9 @@
  *
  * This software is released under the MIT License.
  * https://opensource.org/licenses/MIT
+ *
  */
+
 @import url(./global.css);
 
 .background {
@@ -16,11 +18,11 @@
     width: 100%;
 }
 
-.photo{
+.photo {
     overflow: hidden;
     position: absolute;
     height: 50% !important;
-    width:50% !important;
+    width: 50% !important;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);

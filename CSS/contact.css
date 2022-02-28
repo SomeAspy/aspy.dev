@@ -3,7 +3,9 @@
  *
  * This software is released under the MIT License.
  * https://opensource.org/licenses/MIT
+ *
  */
+
 @import url(./global.css);
 .background {
     background-image: url(../images/backgroundProjects.webp); /* THIS IS A TEMPORARY BACKGROUND IMAGE */
@@ -15,47 +17,41 @@
     width: 100%;
     filter: blur(4px);
 }
-.contactGrid{
-    display:grid;
-    grid-template-columns:auto;
+.contactGrid {
+    display: grid;
+    grid-template-columns: auto;
     gap: 10px;
 }
-.contactItem{
-    border-radius:25px;
-    width:45vw;
-    height:10vh;
-    text-align:center;
-    color:rgb(247, 247, 255);
-    background:
-        linear-gradient(
-            rgba(0, 0, 0, 0.5),
-            rgba(0, 0, 0, 0.5)
-        );
-    white-space:normal;
-    text-decoration:none;
-    display:flex;
-    flex-direction:column;
-    transition:all .2s ease-in-out;
+.contactItem {
+    border-radius: 25px;
+    width: 45vw;
+    height: 10vh;
+    text-align: center;
+    color: rgb(247, 247, 255);
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+    white-space: normal;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    transition: all 0.2s ease-in-out;
 }
-.contactItem:hover{
-    transform:scale(1.05);
-
+.contactItem:hover {
+    transform: scale(1.05);
 }
-.icon{
-    position:absolute;
-    transform:translate(-50%,-50%);
-    height:100%;
-    margin-left:15%;
+.icon {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    height: 100%;
+    margin-left: 15%;
     margin-top: 7%;
     object-fit: scale-down;
-
 }
-.contactInfo{
-    position:absolute;
-    margin-left:25%;
-    margin-top:2%;
-    font-size:6vh;
-    font-family:Roboto, sans-serif;
-    font-weight:700;
-    text-align:center;
+.contactInfo {
+    position: absolute;
+    margin-left: 25%;
+    margin-top: 2%;
+    font-size: 6vh;
+    font-family: Roboto, sans-serif;
+    font-weight: 700;
+    text-align: center;
 }

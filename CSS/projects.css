@@ -3,7 +3,9 @@
  *
  * This software is released under the MIT License.
  * https://opensource.org/licenses/MIT
+ *
  */
+
 @import url(./global.css);
 body {
     background-color: #1f1d20;
@@ -20,63 +22,57 @@ body {
     width: 100%;
 }
 
-
-.gridContainer{
-    display:grid;
-    grid-template-columns:repeat(4,1fr);
+.gridContainer {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
     gap: 10px;
 }
 
-.gridItem{
+.gridItem {
     border-radius: 25px;
     width: 12vw;
     height: 20vh;
     text-align: center;
     color: rgb(247, 247, 255);
-    background:
-        linear-gradient(
-            rgba(0, 0, 0, 0.5),
-            rgba(0, 0, 0, 0.5)
-        );
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
     white-space: normal;
-    text-decoration:none;
+    text-decoration: none;
     display: flex;
     flex-direction: column;
-    transition: all .2s ease-in-out;
-
+    transition: all 0.2s ease-in-out;
 }
 
-.gridItem:hover{
-    transform:scale(1.05);
+.gridItem:hover {
+    transform: scale(1.05);
 }
 
-.title{
-    margin-top:10px;
+.title {
+    margin-top: 10px;
     font-size: 3vh;
     font-family: Roboto, sans-serif;
     font-weight: 700;
     text-align: center;
 }
 
-.description{
+.description {
     width: 95%;
-    margin:2.5%;
+    margin: 2.5%;
     height: 20vh;
     font-size: 1.8vh;
     font-family: Roboto, sans-serif;
     text-align: center;
     flex-wrap: wrap;
 }
-@media(max-width:600px){
-    .gridContainer{
+@media (max-width: 600px) {
+    .gridContainer {
         margin-top: 20vh;
-        grid-template-columns:repeat(2,1fr);
+        grid-template-columns: repeat(2, 1fr);
     }
-    .gridItem{
-        width:45vw;
-        height:25vh;
+    .gridItem {
+        width: 45vw;
+        height: 25vh;
     }
-    body{
+    body {
         overflow-y: scroll;
     }
 }
