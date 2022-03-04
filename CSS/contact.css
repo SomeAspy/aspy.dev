@@ -43,13 +43,10 @@
 .icon {
     position: relative;
     transform: translate(-50%, -50%);
-    height: 100%;
+    height: 80%;
     margin-left: 15%;
     top: 50%;
     object-fit: scale-down;
-}
-.tg {
-    height: 90%;
 }
 .contactInfo {
     position: absolute;
@@ -60,9 +57,8 @@
     font-weight: 700;
     text-align: center;
 }
-
-.em {
-    margin-top: -0.5%;
-    font-size: 450%;
+.email {
+    margin-top: -1%;
+    font-size: 7vh;
     font-family: Roboto, sans-serif;
 }
