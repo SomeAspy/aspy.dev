@@ -5,14 +5,14 @@
 'use strict';
 //these scripts are adapted to run faster on the site, and to be embedded. They are functionally the same as the original scripts.
 //Do now 4.2 - original: https://github.com/SomeAspy/SchoolRepos/tree/main/HighSchool/JavaScript/DoNow4.2
-function fourTwo() {
+document.getElementById('fourTwo').addEventListener('click', function () {
     prompt('Enter A word!')
         .split('')
         .forEach((char) => {
             alert(char);
             console.log(char);
         });
-}
+});
 //QOTD - original: https://github.com/SomeAspy/SchoolRepos/tree/main/HighSchool/JavaScript/QOTD
 const quotes = [
     'When Life gives you lemons, make lemonade',
@@ -28,6 +28,6 @@ const quotes = [
     'If this sentence is true, then santa claus exists',
     'Does the set of all those sets that do not contain themselves contain itself?',
 ];
-function QOTD() {
+document.getElementById('QOTD').addEventListener('click', () => {
     alert(quotes[Math.floor(Math.random() * quotes.length)]);
-}
+});
