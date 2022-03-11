@@ -5,7 +5,7 @@
 'use strict';
 //these scripts are adapted to run faster on the site, and to be embedded. They are functionally the same as the original scripts.
 //Do now 4.2 - original: https://github.com/SomeAspy/SchoolRepos/tree/main/HighSchool/JavaScript/DoNow4.2
-body.onload = function () {
+document.onload = function () {
     document.getElementById('fourTwo').addEventListener('click', function () {
         prompt('Enter A word!')
             .split('')
