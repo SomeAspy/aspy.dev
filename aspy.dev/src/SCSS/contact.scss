@@ -1,0 +1,62 @@
+/**
+ * Copyright (c) 2021-2022 Aiden Baker
+ *
+ * This software is released under the MIT License.
+ * https://opensource.org/licenses/MIT
+ */
+
+@import url(./global.scss);
+
+.background {
+    filter: blur(4px);
+    background-image: url("../images/backgroundProjects.webp");
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+.contactGrid {
+    display: grid;
+    grid-template-columns: auto;
+    gap: 10px;
+}
+.contactItem {
+    border-radius: 25px;
+    width: 40vw;
+    height: 10vh;
+    text-align: center;
+    color: rgb(247, 247, 255);
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+    white-space: normal;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    transition: all 0.2s ease-in-out;
+}
+.contactItem:hover {
+    transform: scale(1.05);
+}
+.icon {
+    position: relative;
+    transform: translate(-50%, -50%);
+    height: 80%;
+    margin-left: 15%;
+    top: 50%;
+    object-fit: scale-down;
+}
+.contactInfo {
+    position: absolute;
+    margin-left: 25%;
+    margin-top: 2%;
+    font-size: 6vh;
+    font-family: Roboto, sans-serif;
+    font-weight: 700;
+    text-align: center;
+}
+.email {
+    margin-top: -1%;
+    font-size: 7vh;
+    font-family: Roboto, sans-serif;
+}

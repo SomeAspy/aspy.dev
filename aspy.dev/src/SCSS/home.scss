@@ -1,0 +1,39 @@
+/**
+ * Copyright (c) 2021-2022 Aiden Baker
+ *
+ * This software is released under the MIT License.
+ * https://opensource.org/licenses/MIT
+ */
+
+@import url(./global.scss);
+
+body {
+    background-color: #1f1d20;
+}
+
+.background {
+    filter:
+        blur(4px);
+    background:
+        linear-gradient(rgba(0, 0, 0, 0.5),
+            rgba(0, 0, 0, 0.5)),
+        url("../images/backgroundHome.webp");
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 101vh;
+    width: 101%;
+}
+
+.centerText {
+    text-align: center;
+    color: rgb(247, 247, 255);
+    font-size: 6vh;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: Roboto, sans-serif;
+}
