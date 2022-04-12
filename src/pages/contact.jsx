@@ -7,52 +7,54 @@ import NavBar from '../modules/navbar/navbar.jsx';
 import Footer from '../modules/footer/footer.jsx';
 import '../SCSS/contact.scss';
 
+import discord from '../images/discord.svg';
+import github from '../images/github.svg';
+import telegram from '../images/telegram.svg';
+import steam from '../images/steam.svg';
+
+function ContactItem(props) {
+    return (
+        <a class='contactItem' href={props.link}>
+            <img src={props.image} alt={props.alt} class='icon' />
+            <div class='contactInfo'>{props.name}</div>
+        </a>
+    );
+}
+
 export default function Contact() {
     return (
         <>
             <div class='background' />
             <NavBar />
             <div class='contactGrid center'>
-                <a
-                    class='contactItem'
-                    href='https://discord.com/users/516750892372852754'>
-                    <img
-                        class='icon'
-                        src='./src/images/discord.svg'
-                        alt='Discord Logo'
-                    />
-                    <div class='contactInfo'>SomeAspy#9999</div>
-                </a>
-                <a class='contactItem' href='https://github.com/SomeAspy'>
-                    <img
-                        class='icon'
-                        src='./src/images/github.svg'
-                        alt='Github Logo'
-                    />
-                    <div class='contactInfo'>SomeAspy</div>
-                </a>
-                <a class='contactItem' href='https://t.me/someaspy'>
-                    <img
-                        class='icon telegram'
-                        src='./src/images/telegram.svg'
-                        alt='Telegram Logo'
-                    />
-                    <div class='contactInfo'>Telegram</div>
-                </a>
+                <ContactItem
+                    link='https://discord.com/users/516750892372852754'
+                    image={discord}
+                    alt='Discord'
+                    name='SomeAspy#9999'
+                />
+                <ContactItem
+                    link='https://github.com/SomeAspy'
+                    image={github}
+                    alt='GitHub'
+                    name='SomeAspy'
+                />
+                <ContactItem
+                    link='https://t.me/someaspy'
+                    image={telegram}
+                    alt='Telegram'
+                    name='Telegram'
+                />
                 <a class='contactItem' href='mailto:amb@aspy.dev'>
                     <p class='icon email'>@</p>
                     <div class='contactInfo'>Email</div>
                 </a>
-                <a
-                    class='contactItem'
-                    href='https://steamcommunity.com/id/SomeAspy/'>
-                    <img
-                        class='icon steam'
-                        src='./src/images/steam.svg'
-                        alt='Steam Logo'
-                    />
-                    <div class='contactInfo'>Steam</div>
-                </a>
+                <ContactItem
+                    link='https://steamcommunity.com/id/SomeAspy/'
+                    image={steam}
+                    alt='Steam'
+                    name='Steam'
+                />
             </div>
             <Footer github='pages/contact.jsx' />
         </>

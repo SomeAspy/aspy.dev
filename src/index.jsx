@@ -2,7 +2,7 @@
 import { render } from 'solid-js/web';
 import { lazy } from 'solid-js';
 import { Routes, Route, Router } from 'solid-app-router';
-import { MetaProvider, renderTags } from 'solid-meta';
+import { MetaProvider } from 'solid-meta';
 
 const Home = lazy(() => import('./pages/home.jsx'));
 const About = lazy(() => import('./pages/about.jsx'));

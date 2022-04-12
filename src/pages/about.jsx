@@ -6,6 +6,7 @@
 import NavBar from '../modules/navbar/navbar.jsx';
 import Footer from '../modules/footer/footer.jsx';
 import '../SCSS/about.scss';
+import aboutMePhoto from '../images/aboutMePhoto.webp';
 
 export default function About() {
     return (
@@ -13,10 +14,7 @@ export default function About() {
             <div class='background' />
             <NavBar />
             <div class='photo'>
-                <img
-                    src='./src/images/aboutMePhoto.webp'
-                    alt='Sketch of Aiden'
-                />
+                <img src={aboutMePhoto} alt='Sketch of Aiden' />
             </div>
             <Footer />
         </>
