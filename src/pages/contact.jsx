@@ -15,8 +15,11 @@ import steam from '../images/steam.svg';
 function ContactItem(props) {
     return (
         <a class='contactItem' href={props.link}>
-            <img src={props.image} alt={props.alt} class='icon' />
-            <div class='contactInfo'>{props.name}</div>
+            <img src={props.image} alt={props.name} class='icon' />
+            <div class='contactContent'>
+                <span>{props.name}</span>
+                <span2>{props.contact}</span2>
+            </div>
         </a>
     );
 }
@@ -30,29 +33,32 @@ export default function Contact() {
                 <ContactItem
                     link='https://discord.com/users/516750892372852754'
                     image={discord}
-                    alt='Discord'
-                    name='SomeAspy#9999'
+                    name='Discord'
+                    contact='SomeAspy#9999'
                 />
                 <ContactItem
                     link='https://github.com/SomeAspy'
                     image={github}
-                    alt='GitHub'
-                    name='SomeAspy'
+                    name='GitHub'
+                    contact='SomeAspy'
                 />
                 <ContactItem
                     link='https://t.me/someaspy'
                     image={telegram}
-                    alt='Telegram'
                     name='Telegram'
+                    contact='SomeAspy'
                 />
                 <a class='contactItem' href='mailto:amb@aspy.dev'>
                     <p class='icon email'>@</p>
-                    <div class='contactInfo'>Email</div>
+                    <div class='contactContent'>
+                        <span>Email</span>
+                        <span2>amb@aspy.dev</span2>
+                    </div>
                 </a>
                 <ContactItem
                     link='https://steamcommunity.com/id/SomeAspy/'
                     image={steam}
-                    alt='Steam'
+                    contact='SomeAspy'
                     name='Steam'
                 />
             </div>
