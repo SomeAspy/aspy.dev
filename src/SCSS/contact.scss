@@ -46,7 +46,7 @@
     top: 50%;
     object-fit: scale-down;
 }
-.contactInfo {
+.contactContent {
     position: absolute;
     margin-left: 25%;
     margin-top: 2%;
@@ -59,4 +59,11 @@
     margin-top: -1%;
     font-size: 7vh;
     font-family: Roboto, sans-serif;
+}
+
+.contactItem:hover span{
+    display:none
+}
+.contactItem:not(:hover) span2{
+    display:none
 }
