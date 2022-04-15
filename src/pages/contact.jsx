@@ -34,7 +34,7 @@ export default function Contact() {
                     link='https://discord.com/users/516750892372852754'
                     image={discord}
                     name='Discord'
-                    contact='SomeAspy#9999'
+                    contact='SomeAspy\n#9999'
                 />
                 <ContactItem
                     link='https://github.com/SomeAspy'
@@ -52,7 +52,7 @@ export default function Contact() {
                     <p class='icon email'>@</p>
                     <div class='contactContent'>
                         <span>Email</span>
-                        <span2>amb@aspy.dev</span2>
+                        <span2>amb\n@aspy.dev</span2>
                     </div>
                 </a>
                 <ContactItem

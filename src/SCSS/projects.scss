@@ -5,10 +5,6 @@
 
 @import url(./global.scss);
 
-body {
-    background-color: #1f1d20;
-}
-
 .background {
     filter: blur(4px);
     background-image: url("../images/backgroundProjects.webp");
@@ -59,4 +55,12 @@ body {
     font-family: Roboto, sans-serif;
     text-align: center;
     flex-wrap: wrap;
+}
+
+.gridItem:hover{
+    background:
+        linear-gradient(rgba(0, 0, 0, 0.7),
+        rgba(0, 0, 0, 0.7));
+    transform: scale(1.05);
+    transition: .4s;
 }

@@ -36,7 +36,9 @@
     transition: all 0.2s ease-in-out;
 }
 .contactItem:hover {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
     transform: scale(1.05);
+    height:15vh
 }
 .icon {
     position: relative;
@@ -48,9 +50,9 @@
 }
 .contactContent {
     position: absolute;
-    margin-left: 25%;
-    margin-top: 2%;
-    font-size: 6vh;
+    margin-left: 30%;
+    margin-top: 5%;
+    font-size: 5vh;
     font-family: Roboto, sans-serif;
     font-weight: 700;
     text-align: center;
