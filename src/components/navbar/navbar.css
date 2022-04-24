@@ -34,3 +34,10 @@
 .navBar a:hover {
     transform: scale(1.1);
 }
+
+@media screen and (max-width: 600px) {
+    .navBar {
+        grid-template-columns: repeat(3, 2fr);
+        height:10vh;
+    }
+}
