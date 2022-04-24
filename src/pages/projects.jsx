@@ -3,9 +3,9 @@
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
 
-import '../SCSS/projects.scss';
-import NavBar from '../modules/navbar/navbar.jsx';
-import Footer from '../modules/footer/footer.jsx';
+import '../CSS/projects.css';
+import NavBar from '../components/navbar/navbar.jsx';
+import Footer from '../components/footer/footer.jsx';
 
 function Card(props) {
     const redirect = () => {

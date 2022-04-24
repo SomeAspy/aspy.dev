@@ -5,9 +5,9 @@
 
 import { MetaProvider, Title, Meta } from 'solid-meta';
 
-import NavBar from '../modules/navbar/navbar.jsx';
-import Footer from '../modules/footer/footer.jsx';
-import '../SCSS/home.scss';
+import NavBar from '../components/navbar/navbar.jsx';
+import Footer from '../components/footer/footer.jsx';
+import '../CSS/home.css';
 
 export default function Tixte() {
     return (

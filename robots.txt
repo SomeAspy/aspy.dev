@@ -4,8 +4,6 @@
 # https://opensource.org/licenses/MIT
 
 User-agent: *
-Disallow: /external/
-Disallow: /internal/
 Disallow: /*.xml
 Disallow: /*.txt
 Disallow: /*.md

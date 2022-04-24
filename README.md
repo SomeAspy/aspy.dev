@@ -28,4 +28,4 @@ I aim for a 100 in all categories of Google's Lighthouse auditing system, as wel
 
 ### Unique
 
-I do not use templates or color pallettes. All SCSS and JSX is made by me, by hand.
+I do not use templates or color pallettes. All CSS and JSX is made by me, by hand.

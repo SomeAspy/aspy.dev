@@ -1,9 +1,11 @@
-// Copyright (c) 2022 Aiden Baker
-//
-// This software is released under the MIT License.
-// https://opensource.org/licenses/MIT
+/**
+ * Copyright (c) 2021-2022 Aiden Baker
+ *
+ * This software is released under the MIT License.
+ * https://opensource.org/licenses/MIT
+ */
 
-@import url(./global.scss);
+@import url(./global.css);
 
 .background {
     filter: blur(4px);

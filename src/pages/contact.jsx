@@ -3,9 +3,9 @@
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
 
-import NavBar from '../modules/navbar/navbar.jsx';
-import Footer from '../modules/footer/footer.jsx';
-import '../SCSS/contact.scss';
+import NavBar from '../components/navbar/navbar.jsx';
+import Footer from '../components/footer/footer.jsx';
+import '../CSS/contact.css';
 
 import discord from '../images/discord.svg';
 import github from '../images/github.svg';

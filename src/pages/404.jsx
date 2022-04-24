@@ -3,9 +3,9 @@
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
 
-import NavBar from '../modules/navbar/navbar.jsx';
-import Footer from '../modules/footer/footer.jsx';
-import '../SCSS/404.scss';
+import NavBar from '../components/navbar/navbar.jsx';
+import Footer from '../components/footer/footer.jsx';
+import '../CSS/404.css';
 
 function redirect() {
     window.location.href = 'https://www.youtube.com/watch?v=xvFZjo5PgG0';

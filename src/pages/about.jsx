@@ -3,9 +3,9 @@
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
 
-import NavBar from '../modules/navbar/navbar.jsx';
-import Footer from '../modules/footer/footer.jsx';
-import '../SCSS/about.scss';
+import NavBar from '../components/navbar/navbar.jsx';
+import Footer from '../components/footer/footer.jsx';
+import '../CSS/about.css';
 import aboutMePhoto from '../images/aboutMePhoto.webp';
 
 export default function About() {

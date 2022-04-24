@@ -5,7 +5,7 @@
  * https://opensource.org/licenses/MIT
  */
 
-@import url(./global.scss);
+@import url(./global.css);
 
 .background {
     filter: blur(4px);

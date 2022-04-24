@@ -1,1 +1,0 @@
-import{c as o,t}from"./vendor.af7746cb.js";import{N as e,F as a}from"./footer.c02e6147.js";const r=t('<div class="background"></div>'),s=t('<div class="photo"><img src="./src/images/aboutMePhoto.webp" alt="Sketch of Aiden"></div>');function m(){return[r.cloneNode(!0),o(e,{}),s.cloneNode(!0),o(a,{})]}export{m as default};
