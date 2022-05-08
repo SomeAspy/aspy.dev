@@ -5,6 +5,7 @@
  * https://opensource.org/licenses/MIT
  */
 .navBar {
+    pointer-events: all;
     position: absolute;
     top: 0;
     background-color: #141414;
@@ -39,5 +40,8 @@
     .navBar {
         grid-template-columns: repeat(3, 2fr);
         height:10vh;
+    }
+    .navBar a:hover {
+        transform: scale(1);
     }
 }

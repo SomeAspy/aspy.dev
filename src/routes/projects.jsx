@@ -27,11 +27,6 @@ export default function Projects() {
             <div class='center'>
                 <div class='gridContainer'>
                     <Card
-                        link='https://cumcord.aspy.dev/'
-                        title='CumCord Plugins'
-                        description='Cumcord is a discord client mod.'
-                    />
-                    <Card
                         link='https://statify.live/'
                         title='Statify.Live'
                         description="A project I'm the developer of. It incorporates many APIs into a simple to use API."

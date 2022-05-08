@@ -3,7 +3,7 @@
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
 
-import './navbar.css';
+import './navbar.component.css';
 
 export default function NavBar() {
     return (

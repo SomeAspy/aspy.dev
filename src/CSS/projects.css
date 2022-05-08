@@ -9,7 +9,7 @@
 
 .background {
     filter: blur(4px);
-    background-image: url("../images/backgroundProjects.webp");
+    background-image: url("../assets/backgroundProjects.webp");
     background-position: left;
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -28,7 +28,7 @@
 
 .gridItem {
     border-radius: 25px;
-    width: 12vw;
+    width: 20vh;
     height: 20vh;
     text-align: center;
     color: rgb(247, 247, 255);
@@ -65,4 +65,22 @@
         rgba(0, 0, 0, 0.7));
     transform: scale(1.05);
     transition: .4s;
+}
+
+@media screen and (max-width: 600px) {
+    .gridItem:hover {
+        background:
+            linear-gradient(rgba(0, 0, 0, .5),
+            rgba(0, 0, 0, .5));
+        transform: scale(1.0);
+    }
+    .gridContainer {
+        grid-template-columns: auto auto;
+        margin-top: 10vh;
+    }
+
+    body{
+        overflow-y:scroll!important;
+    }
+
 }

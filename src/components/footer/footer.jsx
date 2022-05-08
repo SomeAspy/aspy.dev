@@ -3,7 +3,7 @@
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
 
-import './footer.css';
+import './footer.component.css';
 
 export default function Footer(props) {
     return (

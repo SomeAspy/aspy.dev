@@ -1,9 +1,5 @@
-Copyright (c) 2022 Aiden Baker
-
-This software is released under the MIT License.
-https://opensource.org/licenses/MIT
-
 HIGH PRIORITY
+    Fix Overflow Y on projects page
 
 NORMAL PRIORITY
     Set up login page and secure.aspy.dev
@@ -13,7 +9,6 @@ NORMAL PRIORITY
 LOW PRIORITY
     Fix tixte external site favicon and embed
     wildcard certificate
-    remove white border from blur property
 
 PLANS
     secure.aspy.dev

@@ -7,10 +7,10 @@ import NavBar from '../components/navbar/navbar.jsx';
 import Footer from '../components/footer/footer.jsx';
 import '../CSS/contact.css';
 
-import discord from '../images/discord.svg';
-import github from '../images/github.svg';
-import telegram from '../images/telegram.svg';
-import steam from '../images/steam.svg';
+import discord from '../assets/discord.svg';
+import github from '../assets/github.svg';
+import telegram from '../assets/telegram.svg';
+import steam from '../assets/steam.svg';
 
 function ContactItem(props) {
     return (
