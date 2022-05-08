@@ -37,27 +37,27 @@ export default function Projects() {
                         description='Bypass the paywall on new york times!'
                     />
                     <Card
-                        link='https://ipogger.aspy.dev'
+                        link='https://ipogger.aspy.dev/'
                         title='IPogger'
                         description='Literally a meme I whipped up in about 30 min, it shows your ip.'
                     />
                     <Card
-                        action='https://mctf.aspy.dev'
+                        link='https://mctf.aspy.dev/'
                         title='MCTF'
                         description='A text formatter for Minecraft'
                     />
                     <Card
-                        action='https://github.com/SomeAspy/FuckIE'
+                        link='https://github.com/SomeAspy/FuckIE/'
                         title='FuckIE'
                         description='A script to redirect users who are on Internet Explorer to a page explaining why it is unsafe to use, and offering alternatives'
                     />
                     <Card
-                        action='https://github.com/SomeAspy/SCP-079'
+                        link='https://github.com/SomeAspy/SCP-079/'
                         title='SCP-079'
                         description='A Discord bot written in JavaScript, using Discord.JS 13, slash commands only'
                     />
                     <Card
-                        action='https://duckduckno.com/'
+                        link='https://duckduckno.com/'
                         title='DuckDuckNo'
                         description='Just a front page of a slightly different DuckDuckGo website'
                     />
