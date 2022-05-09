@@ -4,8 +4,4 @@
 # https://opensource.org/licenses/MIT
 
 User-agent: *
-Disallow: /*.xml
-Disallow: /*.txt
-Disallow: /*.md
-Disallow: /.vscode/
 Sitemap: https://aspy.dev/sitemap.xml
