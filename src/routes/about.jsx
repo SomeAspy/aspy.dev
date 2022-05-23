@@ -6,7 +6,7 @@
 import NavBar from '../components/navbar/navbar.jsx';
 import Footer from '../components/footer/footer.jsx';
 import '../CSS/about.css';
-import aboutMePhoto from '../assets/aboutMePhoto.webp';
+//import aboutMePhoto from '../assets/aboutMePhoto.webp';
 
 export default function About() {
     return (
