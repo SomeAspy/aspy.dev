@@ -16,7 +16,7 @@ export default function About() {
             <div class='photo'>
                 <img src={aboutMePhoto} alt='Sketch of Aiden' />
             </div>
-            <Footer />
+            <Footer github='about.jsx' />
         </>
     );
 }

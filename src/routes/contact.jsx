@@ -62,7 +62,7 @@ export default function Contact() {
                     name='Steam'
                 />
             </div>
-            <Footer github='pages/contact.jsx' />
+            <Footer github='contact.jsx' />
         </>
     );
 }

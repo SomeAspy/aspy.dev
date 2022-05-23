@@ -22,7 +22,7 @@ export default function Tixte() {
             <Meta name='og:color' content='#26a9e1' />
             <Meta rel='shortcut-icon' content='./src/images/tixte.svg' />
 
-            <div class='background'></div>
+            <div class='background' />
             <NavBar />
             <div class='centerText center'>
                 <h1>Aiden's Content Delivery Network</h1>
@@ -30,7 +30,7 @@ export default function Tixte() {
                     Powered by <a href='https://tixte.com'>Tixte</a>!
                 </h3>
             </div>
-            <Footer github='pages/tixte.jsx' />
+            <Footer github='tixte.jsx' />
         </MetaProvider>
     );
 }

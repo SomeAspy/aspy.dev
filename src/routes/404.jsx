@@ -21,10 +21,10 @@ export default function () {
                 <h2>This page doesn't exist.</h2>
                 <h3>:(</h3>
             </div>
-            <a class='troll' onclick='redirect()'>
+            <a class='troll' onclick={redirect}>
                 Or maybe it does?
             </a>
-            <Footer github='pages/404.jsx' />
+            <Footer github='404.jsx' />
         </>
     );
 }

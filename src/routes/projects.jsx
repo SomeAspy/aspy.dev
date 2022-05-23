@@ -63,7 +63,7 @@ export default function Projects() {
                     />
                 </div>
             </div>
-            <Footer github='pages/projects.jsx' />
+            <Footer github='projects.jsx' />
         </>
     );
 }

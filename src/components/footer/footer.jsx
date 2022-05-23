@@ -11,7 +11,7 @@ export default function Footer(props) {
             <footer class='source'>
                 {'This website is '}
                 <a
-                    href={`https://github.com/SomeAspy/aspy.dev/blob/main/src/${props.github}`}>
+                    href={`https://github.com/SomeAspy/aspy.dev/blob/main/src/routes/${props.github}`}>
                     open source
                 </a>
             </footer>

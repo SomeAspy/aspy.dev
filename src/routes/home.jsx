@@ -17,7 +17,7 @@ export default function Home() {
                 <h2>Aiden Baker</h2>
                 <h3>Student, full time idiot</h3>
             </div>
-            <Footer github='pages/home.jsx' />
+            <Footer github='home.jsx' />
         </>
     );
 }
