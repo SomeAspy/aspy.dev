@@ -2,13 +2,13 @@ HIGH PRIORITY
     Fix Overflow Y on projects page
 
 NORMAL PRIORITY
-    Set up login page and secure.aspy.dev
-    setup lanyard
-    design about page
+    setup lanyard????
+    expand on bio in about me
 
 LOW PRIORITY
-    Fix tixte external site favicon and embed
-    wildcard certificate
+    Set up login page and secure.aspy.dev
+    Server side rendering
+        Fix tixte external site favicon and embed
 
 PLANS
     secure.aspy.dev
