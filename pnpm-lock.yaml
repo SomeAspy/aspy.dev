@@ -3,14 +3,12 @@ lockfileVersion: 5.4
 specifiers:
   solid-app-router: ^0.3.3
   solid-js: ^1.4.2
-  solid-meta: ^0.27.5
   vite: ^2.9.9
   vite-plugin-solid: ^2.2.6
 
 dependencies:
   solid-app-router: 0.3.3_solid-js@1.4.2
   solid-js: 1.4.2
-  solid-meta: 0.27.5_solid-js@1.4.2
 
 devDependencies:
   vite: 2.9.9
@@ -806,14 +804,6 @@ packages:
 
   /solid-js/1.4.2:
     resolution: {integrity: sha512-IU5yKuT8P/n5F5g8j1rTXqxUdPYmoZDk/074TG94AEYf/nyXAeG82BSge4/lLIbCfUcnGUJ6DRdebIjujOAYyg==}
-
-  /solid-meta/0.27.5_solid-js@1.4.2:
-    resolution: {integrity: sha512-9OA50aNBhCwuFo1Uby9NT3gB6I6iBRN0mSXkXROJyWDtmyhdw9iyMT9JsnGF/A/7IQq2BSLV75oPQjNKQAMeQw==}
-    peerDependencies:
-      solid-js: '>=1.4.0'
-    dependencies:
-      solid-js: 1.4.2
-    dev: false
 
   /solid-refresh/0.4.0_solid-js@1.4.2:
     resolution: {integrity: sha512-5XCUz845n/sHPzKK2i2G2EeV61tAmzv6SqzqhXcPaYhrgzVy7nKTQaBpKK8InKrriq9Z2JFF/mguIU00t/73xw==}
