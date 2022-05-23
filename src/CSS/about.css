@@ -32,9 +32,9 @@
 
 .textBlock{
     position: absolute;
-    top: 25%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    top: 5%;
+    left: 25%;
+    right: 25%;
     font-family: 'Manrope', sans-serif;
     text-align: center;
     color:#fff;
