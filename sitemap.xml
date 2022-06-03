@@ -12,17 +12,7 @@ https://opensource.org/licenses/MIT
         <priority>.5</priority>
     </url>
     <url>
-        <loc>https://aspy.dev/about</loc>
-        <changefreq>weekly</changefreq>
-        <priority>.5</priority>
-    </url>
-    <url>
         <loc>https://aspy.dev/projects</loc>
-        <changefreq>weekly</changefreq>
-        <priority>.5</priority>
-    </url>
-    <url>
-        <loc>https://aspy.dev/contact</loc>
         <changefreq>weekly</changefreq>
         <priority>.5</priority>
     </url>

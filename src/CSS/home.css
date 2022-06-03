@@ -5,7 +5,13 @@
  * https://opensource.org/licenses/MIT
  */
 
+@import url('https://fonts.googleapis.com/css2?family=Manrope&display=swap');
+
 @import url(./global.css);
+
+body{
+    overflow-y: scroll;
+}
 
 .background {
     filter:
@@ -20,9 +26,10 @@
     background-size: cover;
     height: 101vh;
     width: 101%;
+    position:fixed;
 }
 
-.centerText {
+.firstSection {
     text-align: center;
     color: rgb(247, 247, 255);
     font-size: 6vh;
@@ -31,5 +38,105 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    font-family: Manrope, sans-serif;
+}
+
+
+.secondSection {
+    position: absolute;
+    top: 105vh;
+    left: 10%;
+    right: 10%;
+    font-family: 'Manrope', sans-serif;
+    text-align: center;
+    color: #fff;
+    font-size: 3vh;
+    font-weight: 200;
+}
+
+.header {
+    font-size: 10vh;
+}
+
+.copyright{
+    top:250%;
+}
+
+.source{
+    top: 249%;
+}
+
+.contactGrid {
+    top:210%;
+    display: grid;
+    grid-template-columns: auto;
+    gap: 10px;
+}
+
+.contactItem {
+    border-radius: 25px;
+    width: 40vw;
+    height: 10vh;
+    text-align: center;
+    color: rgb(247, 247, 255);
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+    white-space: normal;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    transition: all 0.2s ease-in-out;
+}
+
+.contactItem:hover {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
+    transform: scale(1.05);
+    height: 15vh
+}
+
+.icon {
+    position: relative;
+    transform: translate(-50%, -50%);
+    height: 80%;
+    margin-left: 15%;
+    top: 50%;
+    object-fit: scale-down;
+}
+
+.contactContent {
+    position: absolute;
+    margin-left: 30%;
+    margin-top: 5%;
+    font-size: 5vh;
+    font-family: Manrope, sans-serif;
+    font-weight: 700;
+    text-align: center;
+}
+
+.email {
+    margin-top: -1%;
+    font-size: 7vh;
     font-family: Roboto, sans-serif;
+}
+
+.contactItem:hover span {
+    display: none
+}
+
+.contactItem:not(:hover) span2 {
+    display: none
+}
+
+@media screen and (max-width: 600px) {
+    .contactItem{
+        width: 80vw;
+    }
+    .firstSection
+    {
+        font-size: 4vh;
+    }
+    .contactItem:hover {
+        height: 10vh;
+        transform: scale(1);
+        background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+    }
 }

@@ -4,16 +4,20 @@
  * This software is released under the MIT License.
  * https://opensource.org/licenses/MIT
  */
+
+@import url('https://fonts.googleapis.com/css2?family=Manrope&display=swap');
+
 .navBar {
     pointer-events: all;
-    position: absolute;
+    position: fixed;
     top: 0;
     background-color: #141414;
     opacity: 0.5;
     width: 100vw;
     height: 5vh;
     display: grid;
-    grid-template-columns: repeat(5, 1fr);
+    grid-template-columns: repeat(3, 1fr);
+
 }
 
 .navBar a {
@@ -25,7 +29,7 @@
     margin-top: 0.6vh;
     text-decoration: none;
     font-size: 3vh;
-    font-family: 'Roboto', sans-serif;
+    font-family: Manrope, sans-serif;
     font-weight: 700;
     transition: all 0.2s ease-in-out;
     backface-visibility: hidden;
@@ -34,14 +38,4 @@
 
 .navBar a:hover {
     transform: scale(1.1);
-}
-
-@media screen and (max-width: 600px) {
-    .navBar {
-        grid-template-columns: repeat(3, 2fr);
-        height:10vh;
-    }
-    .navBar a:hover {
-        transform: scale(1);
-    }
 }

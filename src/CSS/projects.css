@@ -7,6 +7,8 @@
 
 @import url(./global.css);
 
+@import url('https://fonts.googleapis.com/css2?family=Manrope&display=swap');
+
 .background {
     filter: blur(4px);
     background-image: url("../assets/backgroundProjects.webp");
@@ -44,7 +46,7 @@
 .title {
     margin-top: 10px;
     font-size: 3vh;
-    font-family: Roboto, sans-serif;
+    font-family: Manrope, sans-serif;
     font-weight: 700;
     text-align: center;
 }
@@ -54,7 +56,7 @@
     margin: 2.5%;
     height: 20vh;
     font-size: 1.8vh;
-    font-family: Roboto, sans-serif;
+    font-family: Manrope, sans-serif;
     text-align: center;
     flex-wrap: wrap;
 }
