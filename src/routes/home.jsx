@@ -1,4 +1,4 @@
-// Copyright (c) 2022 Aiden Baker
+// Copyright (c) 2022 Aiden
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -31,7 +31,7 @@ export default function Home() {
                 <div class='background' />
                 <div class='firstSection center'>
                     <h1>Aiden's Website</h1>
-                    <h2>Aiden Baker</h2>
+                    <h2>Aiden</h2>
                     <h3>Student, full time idiot</h3>
                 </div>
                 <div className='secondSection'>
