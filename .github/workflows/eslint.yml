@@ -1,4 +1,4 @@
-name: CI
+name: ESLint
 on: push
 jobs:
   build:
@@ -6,6 +6,6 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - name: Install modules
-      run: npm
+      run: yarn
     - name: Run ESLint
-      run: eslint . --ext .js,.jsx,.ts,.tsx
+      run: eslint . --ext .js,.jsx
