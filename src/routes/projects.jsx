@@ -3,14 +3,11 @@ import NavBar from '../components/navbar/navbar.jsx';
 import Footer from '../components/footer/footer.jsx';
 
 function Card(props) {
-    const redirect = () => {
-        window.location.href = props.link;
-    };
     return (
-        <div onClick={() => redirect(props.link)} class='grid-item'>
+        <a href={props.link} class='grid-item'>
             <div class='title'>{props.title}</div>
             <div class='description'>{props.description}</div>
-        </div>
+        </a>
     );
 }
 

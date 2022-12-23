@@ -1,5 +1,6 @@
 HIGH PRIORITY
     Fix Overflow Y on projects page
+    Fix Alignment on Home page contacts
 
 NORMAL PRIORITY
     setup lanyard????
@@ -8,6 +9,7 @@ NORMAL PRIORITY
 LOW PRIORITY
     Set up login page and secure.aspy.dev
     Server side rendering
+    Move to TSX
 
 PLANS
     secure.aspy.dev

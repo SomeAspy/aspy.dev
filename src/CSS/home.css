@@ -1,15 +1,8 @@
-/**
- * Copyright (c) 2021-2022 Aiden Baker
- *
- * This software is released under the MIT License.
- * https://opensource.org/licenses/MIT
- */
-
 @import url('https://fonts.googleapis.com/css2?family=Manrope&display=swap');
 
 @import url("./global.css");
 
-body{
+body {
     overflow-y: scroll;
 }
 
@@ -26,7 +19,7 @@ body{
     background-size: cover;
     height: 101vh;
     width: 101%;
-    position:fixed;
+    position: fixed;
 }
 
 .first-section {
@@ -58,16 +51,16 @@ body{
     font-size: 10vh;
 }
 
-.copyright{
-    top:250%;
+.copyright {
+    top: 250%;
 }
 
-.source{
+.source {
     top: 249%;
 }
 
 .contact-grid {
-    top:210%;
+    top: 210%;
     display: grid;
     grid-template-columns: auto;
     gap: 10px;
@@ -112,7 +105,7 @@ body{
     text-align: center;
 }
 
-.email {
+.text-icon {
     margin-top: -1%;
     font-size: 7vh;
     font-family: Roboto, sans-serif;
@@ -122,17 +115,16 @@ body{
     display: none
 }
 
-.contact-item:not(:hover) {
+.contact-item:not(:hover) .contact {
     display: none
 }
 
 @media screen and (max-width: 600px) {
-    .contact-item{
+    .contact-item {
         width: 80vw;
     }
 
-    .first-section
-    {
+    .first-section {
         font-size: 4vh;
     }
 

@@ -43,3 +43,7 @@ The internet should be available to anyone and everyone. I aim to make my websit
 -   [ESLint Solid plugin](https://github.com/solidjs-community/eslint-plugin-solid) - Enforce SolidJS best practices
 -   [ESLint Compat Plugin](https://github.com/amilajack/eslint-plugin-compat) - Check compatibility with browsers
 -   [ESLint Only Error Plugin](https://github.com/davidjbradshaw/eslint-plugin-only-error) - Make all ESLint warnings errors
+
+### What makes this work?
+
+-   The [about page](https://aspy.dev/about) has a websocket connection to a self hosted instance of [Lanyard](https://github.com/Phineas/lanyard) (Dockerized) to grab the discord info

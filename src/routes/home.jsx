@@ -9,11 +9,11 @@ import steam from '../assets/steam.svg';
 
 function ContactItem(props) {
     return (
-        <a class='contactItem' href={props.link}>
+        <a class='contact-item' href={props.link}>
             <img src={props.image} alt={props.name} class='icon' />
             <div class='contact-content'>
                 <span>{props.name}</span>
-                <span2>{props.contact}</span2>
+                <span class='contact'>{props.contact}</span>
             </div>
         </a>
     );
@@ -60,7 +60,7 @@ export default function Home() {
                             contact='SomeAspy'
                         />
                         <a class='contact-item' href='mailto:amb@aspy.dev'>
-                            <p class='icon email'>@</p>
+                            <p class='icon text-icon'>@</p>
                             <div class='contact-content'>
                                 <span>Email</span>
                                 <span2>amb\n@aspy.dev</span2>
