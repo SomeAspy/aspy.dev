@@ -7,7 +7,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Manrope&display=swap');
 
-.navBar {
+.nav-bar {
     pointer-events: all;
     position: fixed;
     top: 0;
@@ -20,7 +20,7 @@
 
 }
 
-.navBar a {
+.nav-bar a {
     margin: 1px;
     float: left;
     color: #fff;
@@ -36,6 +36,6 @@
     pointer-events: all;
 }
 
-.navBar a:hover {
+.nav-bar a:hover {
     transform: scale(1.1);
 }

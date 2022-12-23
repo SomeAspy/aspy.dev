@@ -7,7 +7,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Manrope&display=swap');
 
-@import url(./global.css);
+@import url("./global.css");
 
 body{
     overflow-y: scroll;
@@ -17,8 +17,8 @@ body{
     filter:
         blur(4px);
     background:
-        linear-gradient(rgba(0, 0, 0, 0.5),
-            rgba(0, 0, 0, 0.5)),
+        linear-gradient(rgb(0 0 0 / 50%),
+            rgb(0 0 0 / 50%)),
         url("../assets/backgroundHome.webp");
     background-position: center;
     background-attachment: fixed;
@@ -29,9 +29,9 @@ body{
     position:fixed;
 }
 
-.firstSection {
+.first-section {
     text-align: center;
-    color: rgb(247, 247, 255);
+    color: rgb(247 247 255);
     font-size: 6vh;
     margin: 0;
     position: absolute;
@@ -42,12 +42,12 @@ body{
 }
 
 
-.secondSection {
+.second-section {
     position: absolute;
     top: 105vh;
     left: 10%;
     right: 10%;
-    font-family: 'Manrope', sans-serif;
+    font-family: Manrope, sans-serif;
     text-align: center;
     color: #fff;
     font-size: 3vh;
@@ -66,20 +66,20 @@ body{
     top: 249%;
 }
 
-.contactGrid {
+.contact-grid {
     top:210%;
     display: grid;
     grid-template-columns: auto;
     gap: 10px;
 }
 
-.contactItem {
+.contact-item {
     border-radius: 25px;
     width: 40vw;
     height: 10vh;
     text-align: center;
-    color: rgb(247, 247, 255);
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+    color: rgb(247 247 255);
+    background: linear-gradient(rgb(0 0 0 / 50%), rgb(0 0 0 / 50%));
     white-space: normal;
     text-decoration: none;
     display: flex;
@@ -87,8 +87,8 @@ body{
     transition: all 0.2s ease-in-out;
 }
 
-.contactItem:hover {
-    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
+.contact-item:hover {
+    background: linear-gradient(rgb(0 0 0 / 70%), rgb(0 0 0 / 70%));
     transform: scale(1.05);
     height: 15vh
 }
@@ -102,7 +102,7 @@ body{
     object-fit: scale-down;
 }
 
-.contactContent {
+.contact-content {
     position: absolute;
     margin-left: 30%;
     margin-top: 5%;
@@ -118,25 +118,27 @@ body{
     font-family: Roboto, sans-serif;
 }
 
-.contactItem:hover span {
+.contact-item:hover span {
     display: none
 }
 
-.contactItem:not(:hover) span2 {
+.contact-item:not(:hover) {
     display: none
 }
 
 @media screen and (max-width: 600px) {
-    .contactItem{
+    .contact-item{
         width: 80vw;
     }
-    .firstSection
+
+    .first-section
     {
         font-size: 4vh;
     }
-    .contactItem:hover {
+
+    .contact-item:hover {
         height: 10vh;
         transform: scale(1);
-        background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+        background: linear-gradient(rgb(0 0 0 / 50%), rgb(0 0 0 / 50%));
     }
 }

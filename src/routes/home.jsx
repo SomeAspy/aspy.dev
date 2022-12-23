@@ -1,8 +1,3 @@
-// Copyright (c) 2022 Aiden Baker
-//
-// This software is released under the MIT License.
-// https://opensource.org/licenses/MIT
-
 import '../CSS/home.css';
 import NavBar from '../components/navbar/navbar.jsx';
 import Footer from '../components/footer/footer.jsx';
@@ -16,7 +11,7 @@ function ContactItem(props) {
     return (
         <a class='contactItem' href={props.link}>
             <img src={props.image} alt={props.name} class='icon' />
-            <div class='contactContent'>
+            <div class='contact-content'>
                 <span>{props.name}</span>
                 <span2>{props.contact}</span2>
             </div>
@@ -29,13 +24,13 @@ export default function Home() {
         <>
             <div>
                 <div class='background' />
-                <div class='firstSection center'>
+                <div class='first-section center'>
                     <h1>Aiden's Website</h1>
                     <h2>Aiden Baker</h2>
                     <h3>Student, full time idiot</h3>
                 </div>
-                <div className='secondSection'>
-                    <h1 className='header'>Hi!</h1>
+                <div class='second-section'>
+                    <h1 class='header'>Hi!</h1>
                     <p>
                         My name is Aiden, and I absolutely love fixing things
                         and technology, especially computers. I've worked
@@ -44,8 +39,8 @@ export default function Home() {
                         to work in the IT field.
                     </p>
                 </div>
-                <div className='thirdSection'>
-                    <div class='contactGrid center'>
+                <div class='third-section'>
+                    <div class='contact-grid center'>
                         <ContactItem
                             link='https://discord.com/users/516750892372852754'
                             image={discord}
@@ -64,9 +59,9 @@ export default function Home() {
                             name='Telegram'
                             contact='SomeAspy'
                         />
-                        <a class='contactItem' href='mailto:amb@aspy.dev'>
+                        <a class='contact-item' href='mailto:amb@aspy.dev'>
                             <p class='icon email'>@</p>
-                            <div class='contactContent'>
+                            <div class='contact-content'>
                                 <span>Email</span>
                                 <span2>amb\n@aspy.dev</span2>
                             </div>

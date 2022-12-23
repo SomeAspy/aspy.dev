@@ -5,7 +5,7 @@
  * https://opensource.org/licenses/MIT
  */
 
- @import url('https://fonts.googleapis.com/css2?family=Manrope&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope&display=swap');
 
 .copyright {
     position: absolute;
@@ -13,7 +13,7 @@
     bottom: -20px;
     transform: translate(-50%, -50%);
     margin: 0 auto;
-    color: rgb(247, 247, 255);
+    color: rgb(247 247 255);
     font-family: Manrope, sans-serif;
     font-size: 10px;
 }
@@ -24,7 +24,7 @@
     bottom: 10px;
     transform: translate(-50%, -50%);
     margin: 0 auto;
-    color: rgb(247, 247, 255);
+    color: rgb(247 247 255);
     font-family: Manrope, sans-serif;
     font-size: 15px;
 }

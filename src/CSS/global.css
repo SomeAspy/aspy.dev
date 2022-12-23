@@ -8,7 +8,7 @@
 body {
     margin: 0;
     overflow: hidden;
-    background-color: #1f1d20; /*This fixes the weird white border*/
+    background-color: #1f1d20; /* This fixes the weird white border */
 }
 
 .center {
@@ -20,9 +20,9 @@ body {
 }
 
 a:link {
-    color: rgb(247, 247, 255);
+    color: rgb(247 247 255);
 }
 
 a:visited {
-    color: rgb(247, 247, 255);
+    color: rgb(247 247 255);
 }

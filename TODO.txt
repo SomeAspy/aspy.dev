@@ -8,7 +8,6 @@ NORMAL PRIORITY
 LOW PRIORITY
     Set up login page and secure.aspy.dev
     Server side rendering
-        Fix tixte external site favicon and embed
 
 PLANS
     secure.aspy.dev

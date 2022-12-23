@@ -1,8 +1,3 @@
-// Copyright (c) 2022 Aiden Baker
-//
-// This software is released under the MIT License.
-// https://opensource.org/licenses/MIT
-
 import NavBar from '../components/navbar/navbar.jsx';
 import Footer from '../components/footer/footer.jsx';
 import '../CSS/home.css';
@@ -27,7 +22,7 @@ export default function Tixte() {
         <>
             <div class='background' />
             <NavBar />
-            <div class='centerText center'>
+            <div class='center-text center'>
                 <h1>Aiden's Content Delivery Network</h1>
                 <h3>
                     Powered by <a href='https://tixte.com'>Tixte</a>!
