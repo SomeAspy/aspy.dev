@@ -2,10 +2,12 @@ name: StyleLint
 on: [push]
 
 jobs:
-    linters:
-        name: stylelint
-        runs-on: ubuntu-latest
+  linters:
+    name: stylelint
+    runs-on: ubuntu-latest
 
-        steps:
-            - uses: actions/checkout@v1
-            - uses: actions-hub/stylelint@master
+    steps:
+      - uses: actions/checkout@v1
+      - uses: actions-hub/stylelint@master
+        env:
+          PATTERN: "**/*.css"
