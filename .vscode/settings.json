@@ -1,8 +1,8 @@
 {
     "cSpell.words": [
+        "csslint",
         "Dockerized",
         "IPogger",
-        "Tixte"
     ],
     "editor.codeActionsOnSave": {
         "source.fixAll": true

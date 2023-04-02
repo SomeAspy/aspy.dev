@@ -24,14 +24,14 @@ export default function Projects() {
                         description='Literally a meme I whipped up in about 30 min, it shows your IP.'
                     />
                     <Card
-                        link='https://github.com/SomeAspy/FuckIE/'
-                        title='FuckIE'
-                        description='A script to redirect users who are on Internet Explorer to a page explaining why it is unsafe to use, and offering alternatives'
-                    />
-                    <Card
                         link='https://duckduckno.com/'
                         title='DuckDuckNo'
                         description='A fun little project I made because I was able to purchase duckduckno.com'
+                    />
+                    <Card
+                        link='https://github.com/SomeAspy/SSMS'
+                        title='Simple Secure Media Server (SSMS)'
+                        description='A highly work in progress media server that is designed to be simple and secure. It is currently not ready for production use.'
                     />
                 </div>
             </div>
