@@ -15,7 +15,12 @@
     "eslint-plugin-only-error": "^1.0.2",
     "eslint-plugin-solid": "^0.10.0",
     "prettier": "^2.8.1",
+<<<<<<< HEAD
     "stylelint": "^15.4.0",
+=======
+    "stylelint": "^15.1.0",
+    "stylelint-config-prettier": "^9.0.4",
+>>>>>>> 5b0f05f02d6c184118f6528783253947398498ed
     "stylelint-config-standard": "^30.0.1",
     "typescript": "^4.9.4",
     "vite": "^4.0.3",
