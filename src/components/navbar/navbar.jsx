@@ -1,16 +1,16 @@
-// Copyright (c) 2022 Aiden Baker
-//
-// This software is released under the MIT License.
-// https://opensource.org/licenses/MIT
-
 import './navbar.component.css';
+
+function NavItem(props) {
+    return <a href={props.link}>{props.name}</a>;
+}
 
 export default function NavBar() {
     return (
         <div class='nav-bar'>
-            <a href='https://aspy.dev'>Home</a>
-            <a href='https://aspy.dev/projects'>Projects</a>
-            <a href='https://blog.aspy.dev'>Blog</a>
+            <NavItem link='/' name='Home' />
+            <NavItem link='/projects' name='Projects' />
+            <NavItem link='/about' name='About' />
+            <NavItem link='https://blog.aspy.dev' name='Blog' />
         </div>
     );
 }

@@ -1,8 +1,3 @@
-// Copyright (c) 2022 Aiden Baker
-//
-// This software is released under the MIT License.
-// https://opensource.org/licenses/MIT
-
 import './footer.component.css';
 
 export default function Footer(props) {
@@ -16,7 +11,7 @@ export default function Footer(props) {
                 </a>
             </footer>
             <footer class='copyright'>
-                <p>&copy; Aiden Baker 2021-2022</p>
+                <p>&copy; Aiden Baker 2021-2023</p>
             </footer>
         </>
     );

@@ -13,17 +13,16 @@
     "eslint-plugin-compat": "^4.0.2",
     "eslint-plugin-jsx-a11y": "^6.6.1",
     "eslint-plugin-only-error": "^1.0.2",
-    "eslint-plugin-solid": "^0.9.1",
+    "eslint-plugin-solid": "^0.10.0",
     "prettier": "^2.8.1",
-    "stylelint": "^14.16.0",
-    "stylelint-config-prettier": "^9.0.4",
-    "stylelint-config-standard": "^29.0.0",
+    "stylelint": "^15.4.0",
+    "stylelint-config-standard": "^30.0.1",
     "typescript": "^4.9.4",
     "vite": "^4.0.3",
     "vite-plugin-solid": "^2.2.6"
   },
   "dependencies": {
-    "solid-app-router": "^0.4.2",
+    "@solidjs/router": "^0.8.2",
     "solid-js": "^1.4.3"
   },
   "browserslist": [

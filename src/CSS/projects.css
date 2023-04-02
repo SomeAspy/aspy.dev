@@ -1,13 +1,5 @@
-/**
- * Copyright (c) 2021-2022 Aiden Baker
- *
- * This software is released under the MIT License.
- * https://opensource.org/licenses/MIT
- */
-
 @import url("./global.css");
-
-@import url('https://fonts.googleapis.com/css2?family=Manrope&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Manrope&display=swap");
 
 .background {
     filter: blur(4px);
@@ -19,7 +11,6 @@
     height: 100vh;
     width: 100%;
 }
-
 
 .grid-container {
     display: grid;
@@ -35,8 +26,10 @@
     text-align: center;
     color: rgb(247 247 255);
     background:
-        linear-gradient(rgb(0 0 0 / 50%),
-            rgb(0 0 0 / 50%));
+        linear-gradient(
+            rgb(0 0 0 / 50%),
+            rgb(0 0 0 / 50%)
+        );
     white-space: normal;
     text-decoration: none;
     display: flex;
@@ -61,20 +54,24 @@
     flex-wrap: wrap;
 }
 
-.grid-item:hover{
+.grid-item:hover {
     background:
-        linear-gradient(rgb(0 0 0 / 70%),
-        rgb(0 0 0 / 70%));
+        linear-gradient(
+            rgb(0 0 0 / 70%),
+            rgb(0 0 0 / 70%)
+        );
     transform: scale(1.05);
-    transition: .4s;
+    transition: 0.4s;
 }
 
 @media screen and (max-width: 600px) {
     .grid-item:hover {
         background:
-            linear-gradient(rgb(0 0 0 / 50%),
-            rgb(0 0 0 / 50%));
-        transform: scale(1.0);
+            linear-gradient(
+                rgb(0 0 0 / 50%),
+                rgb(0 0 0 / 50%)
+            );
+        transform: scale(1);
     }
 
     .grid-container {
@@ -82,8 +79,7 @@
         margin-top: 10vh;
     }
 
-    body{
-        overflow-y:scroll!important;
+    body {
+        overflow-y: scroll !important;
     }
-
 }
