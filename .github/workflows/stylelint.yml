@@ -1,13 +1,33 @@
 name: StyleLint
-on: [push]
+
+on:
+  push:
+    branches:
+      - "*"
+  pull_request:
+    branches:
+      - "*"
 
 jobs:
-  linters:
-    name: stylelint
+  run-linters:
+    name: Run linters
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v1
-      - uses: actions-hub/stylelint@master
-        env:
-          PATTERN: "**/*.css"
+      - name: Check out Git repository
+        uses: actions/checkout@v2
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: 19
+
+      - uses: pnpm/action-setup@v2
+        with:
+          version: latest
+
+      - name: Install Node.js dependencies
+        run: pnpm install
+
+      - name: Run linters
+        run: pnpm run csslint
