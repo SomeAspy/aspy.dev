@@ -30,7 +30,7 @@ export default function Projects() {
                     />
                     <Card
                         link='https://github.com/SomeAspy/SSMS'
-                        title='Simple Secure Media Server (SSMS)'
+                        title='SSMS'
                         description='A highly work in progress media server that is designed to be simple and secure. It is currently not ready for production use.'
                     />
                 </div>
