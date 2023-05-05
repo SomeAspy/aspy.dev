@@ -1,0 +1,56 @@
+@font-face {
+    font-family: 'ManropePatched', sans-serif;
+    src: url('../../assets/fonts/ManropeNerdFont-Regular.woff2');
+}
+
+html {
+    overflow: hidden;
+    scroll-behavior: smooth;
+    font-family: 'ManropePatched', sans-serif;
+}
+
+body {
+    margin: 0;
+    overflow: hidden;
+    background-color: #0f0f0f;
+}
+
+/* .background {
+    filter: blur(4px);
+    background:
+        linear-gradient(
+            rgb(0 0 0 / 50%),
+            rgb(0 0 0 / 50%)
+        ),
+        url("../../assets/images/backgroundHome.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 101vh;
+    width: 101vw;
+    left: -10vw;
+
+} */
+
+.titleText {
+    font-size: 3vw;
+    text-align: center;
+    margin: 0;
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    line-height: 100%;
+    color: #f0f0f0;
+}
+
+.subText {
+    color: #f0f0f0;
+    font-size: 2vw;
+    text-align: center;
+    margin-top:  60vh;
+}
+
+.icons {
+    font-size: 4vw;
+}
