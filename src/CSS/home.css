@@ -1,7 +1,7 @@
 html {
     overflow: hidden;
     scroll-behavior: smooth;
-    font-family: 'Manrope', sans-serif;
+    font-family: Manrope, sans-serif;
 }
 
 body {
@@ -27,7 +27,7 @@ body {
     z-index: -1;
 }
 
-.titleText {
+.title-text {
     font-size: 3vw;
     text-align: center;
     margin: 0;
@@ -40,7 +40,7 @@ body {
     transition: .5s;
 }
 
-.subArea {
+.sub-area {
     color: #f0f0f0;
     font-size: 2vw;
     text-align: center;
@@ -70,9 +70,12 @@ body {
 }
 
 .icon {
-    height: 3vw;
-    margin-left: 1vw;
-    margin-right: 1vw;
+    height: 5vh;
+    margin:1vw;
     transition: 0.5s;
-    margin: 1vw;
+}
+
+.icon:hover {
+    transform: scale(1.5);
+    transition: 1s;
 }

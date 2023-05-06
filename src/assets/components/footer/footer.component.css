@@ -1,0 +1,21 @@
+.copyright {
+  position: absolute;
+  left: 50%;
+  bottom: -20px;
+  transform: translate(-50%, -50%);
+  margin: 0 auto;
+  color: rgb(247 247 255);
+  font-family: Manrope, sans-serif;
+  font-size: 10px;
+}
+
+.source {
+  position: absolute;
+  left: 50%;
+  bottom: 10px;
+  transform: translate(-50%, -50%);
+  margin: 0 auto;
+  color: rgb(247 247 255);
+  font-family: Manrope, sans-serif;
+  font-size: 15px;
+}

@@ -1,0 +1,2 @@
+User-agent: *
+Sitemap: https://aspy.dev/sitemap.xml

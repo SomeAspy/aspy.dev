@@ -1,0 +1,33 @@
+.navbar {
+  pointer-events: all;
+  flex-wrap:nowrap;
+  position: fixed;
+  top: 0;
+  background-color: #141414;
+  opacity: 0.5;
+  width: 100vw;
+  height: 5vh;
+  display: flex;
+  justify-content: center;
+}
+
+.navbar a {
+  margin: 1px;
+  float: center;
+  color: #fff;
+  text-align: center;
+  margin-left: 5vw;
+  margin-right: 5vw;
+  margin-top: 0.3vh;
+  text-decoration: none;
+  font-size: 3vh;
+  font-family: Manrope, sans-serif;
+  font-weight: 700;
+  transition: all 0.4s;
+  backface-visibility: hidden;
+  pointer-events: all;
+}
+
+.navbar a:hover {
+  transform: scale(1.1);
+}
