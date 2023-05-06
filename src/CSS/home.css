@@ -1,12 +1,12 @@
 @font-face {
-    font-family: 'ManropePatched', sans-serif;
-    src: url('../../assets/fonts/ManropeNerdFont-Regular.woff2');
+    font-family: 'Manrope';
+    src: url('../assets/fonts/Manrope.woff2');
 }
 
 html {
     overflow: hidden;
     scroll-behavior: smooth;
-    font-family: 'ManropePatched', sans-serif;
+    font-family: 'Manrope';
 }
 
 body {
@@ -15,42 +15,69 @@ body {
     background-color: #0f0f0f;
 }
 
-/* .background {
-    filter: blur(4px);
+.background {
     background:
         linear-gradient(
             rgb(0 0 0 / 50%),
             rgb(0 0 0 / 50%)
         ),
-        url("../../assets/images/backgroundHome.webp");
+        url("../assets/images/backgroundHome.webp");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     height: 101vh;
     width: 101vw;
-    left: -10vw;
-
-} */
+    left: -10vw;;
+    filter:grayscale(100%) blur(4px);
+    z-index: -1;
+}
 
 .titleText {
     font-size: 3vw;
     text-align: center;
     margin: 0;
     position: absolute;
-    top: 35%;
+    top: 25%;
     left: 50%;
     transform: translate(-50%, -50%);
     line-height: 100%;
     color: #f0f0f0;
+    transition: .5s;
 }
 
-.subText {
+.subArea {
     color: #f0f0f0;
     font-size: 2vw;
     text-align: center;
-    margin-top:  60vh;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translateX(-50%);
+    transition: .5s;
+
+
+
 }
 
 .icons {
-    font-size: 4vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5vh;
+    margin-bottom: auto;
+    transition: .5s;
+
+}
+
+.invert {
+    filter: invert(1);
+}
+
+.icon {
+    height: 3vw;
+    margin-left: 1vw;
+    margin-right: 1vw;
+    transition: 0.5s;
+    margin: 1vw;
 }
