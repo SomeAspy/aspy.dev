@@ -57,11 +57,11 @@ export function Home(): JSX.Element {
         <>
             <div class="background"/>
             <Navbar/>
-            <div class="titleText">
+            <div class="title-text">
                 <h1>Hello there.</h1>
                 <h2>My name is Aiden.</h2>
             </div>
-            <div class="subArea">
+            <div class="sub-area">
                 <p>I like to work with computers, and often like to develop various things.</p>
                 <p>Things I like to work with:</p>
                 <div class="icons">
