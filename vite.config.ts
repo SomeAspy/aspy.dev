@@ -11,7 +11,7 @@ export default defineConfig({
         viteCompression({
             algorithm: 'brotliCompress',
             deleteOriginFile: true,
-            filter: /\.(js|mjs|ts|tsx|json|css)$/i,
+            filter: /\.(js|mjs|ts|tsx|json|css|html)$/i,
         }),
         solidSvg({
             defaultAsComponent: true,
