@@ -1,12 +1,7 @@
-@font-face {
-    font-family: 'Manrope';
-    src: url('../assets/fonts/Manrope.woff2');
-}
-
 html {
     overflow: hidden;
     scroll-behavior: smooth;
-    font-family: 'Manrope';
+    font-family: 'Manrope', sans-serif;
 }
 
 body {
