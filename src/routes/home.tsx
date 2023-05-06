@@ -39,7 +39,7 @@ import SteamDeckLogo from '../assets/SVGs/steamdeck.svg?component-solid';
 function Icon(props: { class?: string, src: Component<JSX.SvgSVGAttributes<SVGSVGElement>>, color?: string, href?: string, alt: string; }) {
     let defaultClass = "icon";
     let color="#FFF"
-    if (props.color) {
+    if (props.color!==undefined) {
         color = props.color;
     }
     if (props.class) {
@@ -56,7 +56,7 @@ export function Home(): JSX.Element {
     return (
         <>
             <div class="background"/>
-            <Navbar currentPage="home" />
+            <Navbar/>
             <div class="titleText">
                 <h1>Hello there.</h1>
                 <h2>My name is Aiden.</h2>

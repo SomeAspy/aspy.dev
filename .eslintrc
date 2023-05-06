@@ -2,8 +2,7 @@
     "plugins": [
         "solid",
         "@typescript-eslint",
-        "jsx-a11y",
-        "only-error"
+        "jsx-a11y"
     ],
     "extends": [
         "eslint:recommended",
@@ -20,5 +19,13 @@
     },
     "settings": {
         "lintAllEsApis": true,
+    },
+    "parserOptions": {
+        "project": "./tsconfig.json",
+        "ecmaVersion": "latest",
+        "sourceType": "module",
+        "ecmaFeatures": {
+            "jsx": true
+        }
     }
 }

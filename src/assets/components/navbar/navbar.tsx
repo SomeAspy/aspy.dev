@@ -1,6 +1,6 @@
 import './navbar.component.css';
 
-export default function (props: {currentPage: string}) {
+export default function () {
     return (
         <div class="navbar">
             <a class="link" href="/">Home</a>
