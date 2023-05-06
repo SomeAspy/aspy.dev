@@ -24,7 +24,6 @@ import DebianLogo from '../assets/SVGs/debian.svg?component-solid';
 import VisualStudioCodeLogo from '../assets/SVGs/visualstudiocode.svg?component-solid';
 import ReactLogo from '../assets/SVGs/react.svg?component-solid';
 import ViteLogo from '../assets/SVGs/vite.svg?component-solid';
-import SteamDeckLogo from '../assets/SVGs/steamdeck.svg?component-solid';
 
 
 /**
@@ -85,7 +84,6 @@ export function Home(): JSX.Element {
                     <Icon src={VisualStudioCodeLogo} alt="Visual Studio Code Logo" color="#007ACC" href="https://code.visualstudio.com/" />
                     <Icon src={ReactLogo} alt="React Logo" color="#61DAFB" href="https://reactjs.org/" />
                     <Icon src={ViteLogo} alt="Vite Logo" color="#646CFF" href="https://vitejs.dev/" />
-                    <Icon src={SteamDeckLogo} alt="Steam Deck Logo" color="#1A9FFF" href="https://www.steamdeck.com/en/" />
                 </div>
 
             </div>
