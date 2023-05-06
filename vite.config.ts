@@ -10,7 +10,6 @@ export default defineConfig({
         webfontDownload(),
         viteCompression({
             algorithm: 'brotliCompress',
-            deleteOriginFile: true,
             filter: /\.(js|mjs|ts|tsx|json|css|html)$/i,
         }),
         solidSvg({
