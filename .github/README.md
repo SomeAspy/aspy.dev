@@ -4,15 +4,10 @@ My Personal website that I work on in my free time.
 
 Now a complete ground up rewrite in TSX!
 
-It may not look the best but I'm proud of it. I'm not good with reactive libraries or CSS, but its been a lot of fun and a great learning experience working on this. When I started this project I had no idea how CSS or JSX worked.
-
-This site also incorporates some stuff for its subdomains, like the stuff under /external
+It may not look the best but I'm proud of it. I'm not good with reactive libraries or CSS, but its been a lot of fun and a great learning experience working on this. When I started this project I had no idea how CSS, JSX, or TSX worked.
 
 ~~I develop this website with Chrome Canary in mind, and also test for Firefox Nightly with lower priority. This is simply due to the market share for the browsers.~~
 I now build this with Firefox Nightly mainly. This is due to Google Chrome's funny ManifestV3 (See https://www.eff.org/deeplinks/2021/12/chrome-users-beware-manifest-v3-deceitful-and-threatening for a not-so-short summary)
-
-Testing with Edge will generally not be done, [However most used practices should be auto-magically checked against browsers by ESLint Compat.](https://github.com/amilajack/eslint-plugin-compat)
-That being said, if you find any issues please open an issue!
 
 ## Hosting
 
@@ -44,7 +39,13 @@ The internet should be available to anyone and everyone. I aim to make my websit
 -   [ESLint A11y plugin](https://github.com/jsx-eslint/eslint-plugin-jsx-a11y) - Enforce best accessibility practices
 -   [ESLint Solid plugin](https://github.com/solidjs-community/eslint-plugin-solid) - Enforce SolidJS best practices
 -   [ESLint Compat Plugin](https://github.com/amilajack/eslint-plugin-compat) - Check compatibility with browsers
--   [ESLint Only Error Plugin](https://github.com/davidjbradshaw/eslint-plugin-only-error) - Make all ESLint warnings errors
+
+#### Installed Vite Plugins:
+
+-   [Vite-Plugin-Compression](https://github.com/vbenjs/vite-plugin-compression)
+-   [Vite-Plugin-Webfont-DL](https://github.com/feat-agency/vite-plugin-webfont-dl)
+-   [Vite-Plugin-Solid](https://github.com/solidjs/vite-plugin-solid)
+-   [Vite-Plugin-Solid-SVG](https://github.com/jfgodoy/vite-plugin-solid-svg)
 
 ### What makes this work?
 

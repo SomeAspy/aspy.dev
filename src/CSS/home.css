@@ -1,8 +1,10 @@
 html {
-    overflow: hidden;
+    overflow-x: hidden;
     scroll-behavior: smooth;
     font-family: Manrope, sans-serif;
 }
+
+
 
 body {
     margin: 0;
@@ -20,35 +22,40 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 101vh;
-    width: 101vw;
-    left: -10vw;;
+    background-attachment: fixed;
+    position:fixed;
+    height: 100vh;
+    width: 100vw;
+    top:0;
     filter:grayscale(100%) blur(4px);
     z-index: -1;
 }
 
 .title-text {
-    font-size: 3vw;
+    font-size:4dvh;
     text-align: center;
-    margin: 0;
-    position: absolute;
-    top: 25%;
-    left: 50%;
+    position: relative;
+    margin-top: 30dvh;
+    left:47vw;
     transform: translate(-50%, -50%);
-    line-height: 100%;
+    line-height: 7dvh;
     color: #f0f0f0;
     transition: .5s;
+    margin-left:3vw;
+    margin-right:3vw;
 }
 
 .sub-area {
     color: #f0f0f0;
-    font-size: 2vw;
+    font-size: 2cap;
     text-align: center;
-    position: absolute;
-    top: 40%;
+    position: relative;
+    top:-10dvh;
     left: 50%;
     transform: translateX(-50%);
     transition: .5s;
+    margin-left:1dvw;
+    margin-right:1dvw;
 }
 
 .icons {
@@ -67,12 +74,16 @@ body {
 }
 
 .icon {
-    height: 5vh;
-    margin:1vw;
+    height: 5dvh;
+    width: 5dvh;
+    margin:2dvh;
     transition: 0.5s;
 }
 
 .icon:hover {
     transform: scale(1.5);
-    transition: 1s;
+    background-color: #0f0f0f;
+    border-radius: 25%;
+    transition: 0.5s;
+    opacity: .5;
 }
