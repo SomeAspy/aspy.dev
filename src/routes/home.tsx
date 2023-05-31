@@ -35,11 +35,13 @@ import ViteLogo from '../assets/SVGs/vite.svg?component-solid';
  * @param props.alt The alt text to use for the icon
  * @returns A TSX element containing the icon
  */
-function Icon(props: { class?: string, src: Component<JSX.SvgSVGAttributes<SVGSVGElement>>, color?: string, alt: string; }): JSX.Element {
-    const defaultClass = "icon";
+function Icon(props: {src: Component<JSX.SvgSVGAttributes<SVGSVGElement>>, color?: string, alt: string; }): JSX.Element {
     const defaultColor = "#FFF";
     return (
-        <props.src class={props.class ? props.class + " " + defaultClass : defaultClass} fill={props.color ? props.color : defaultColor} />
+        <div class="icon-container">
+            <props.src class="icon" fill={props.color ? props.color : defaultColor} />
+            <p class="icon-alt-text">{props.alt}</p>
+        </div>
     );
 }
 
@@ -56,26 +58,26 @@ export function Home(): JSX.Element {
                 <p>I like to work with computers, and often like to develop various things.</p>
                 <p>Things I like to work with:</p>
                 <div class="icons">
-                    <Icon src={SolidLogo} alt="SolidJS Logo" color="#2C4F7C" />
-                    <Icon src={Css3Logo} alt="CSS3 Logo" color="#1572B6" />
-                    <Icon src={Html5Logo} alt="HTML5 Logo" color="#E34F26" />
-                    <Icon src={JSLogo} alt="JavaScript Logo" color="#F7DF1E" />
-                    <Icon src={MarkdownLogo} alt="Markdown Logo" />
-                    <Icon src={NodeLogo} alt="NodeJS Logo" color="#339933" />
-                    <Icon src={JavaLogo} alt="Java Logo" color="#FC4C02" />
-                    <Icon src={DockerLogo} alt="Docker Logo" color="#2496ED" />
-                    <Icon src={LinuxLogo} alt="Linux Logo" />
-                    <Icon src={ArchLogo} alt="Arch Linux Logo" color="#1793D1" />
-                    <Icon src={CloudFlareLogo} alt="CloudFlare Logo" color="#F38020" />
-                    <Icon src={GitHubLogo} alt="GitHub Logo" />
-                    <Icon src={TypeScriptLogo} alt="TypeScript Logo" color="#3178C6" />
-                    <Icon src={AutodeskLogo} alt="Autodesk Logo" color="#d74e26" />
-                    <Icon src={CppLogo} alt="C++ Logo" color="#00599C" />
-                    <Icon src={DebianLogo} alt="Debian Logo" color="#A81D33" />
-                    <Icon src={VisualStudioCodeLogo} alt="Visual Studio Code Logo" color="#007ACC" />
-                    <Icon src={ReactLogo} alt="React Logo" color="#61DAFB" />
-                    <Icon src={ViteLogo} alt="Vite Logo" color="#646CFF" />
-                    <Icon src={PythonLogo} alt="Python Logo" color="#3776AB" />
+                    <Icon src={SolidLogo} alt="SolidJS" color="#2C4F7C" />
+                    <Icon src={Css3Logo} alt="CSS" color="#1572B6" />
+                    <Icon src={Html5Logo} alt="HTML" color="#E34F26" />
+                    <Icon src={JSLogo} alt="JavaScript" color="#F7DF1E" />
+                    <Icon src={MarkdownLogo} alt="Markdown" />
+                    <Icon src={NodeLogo} alt="NodeJS" color="#339933" />
+                    <Icon src={JavaLogo} alt="Java" color="#FC4C02" />
+                    <Icon src={DockerLogo} alt="Docker" color="#2496ED" />
+                    <Icon src={LinuxLogo} alt="Linux" />
+                    <Icon src={ArchLogo} alt="Arch Linux" color="#1793D1" />
+                    <Icon src={CloudFlareLogo} alt="CloudFlare" color="#F38020" />
+                    <Icon src={GitHubLogo} alt="GitHub" />
+                    <Icon src={TypeScriptLogo} alt="TypeScript" color="#3178C6" />
+                    <Icon src={AutodeskLogo} alt="Autodesk" color="#d74e26" />
+                    <Icon src={CppLogo} alt="C++" color="#00599C" />
+                    <Icon src={DebianLogo} alt="Debian" color="#A81D33" />
+                    <Icon src={VisualStudioCodeLogo} alt="Visual Studio Code" color="#007ACC" />
+                    <Icon src={ReactLogo} alt="React" color="#61DAFB" />
+                    <Icon src={ViteLogo} alt="Vite" color="#646CFF" />
+                    <Icon src={PythonLogo} alt="Python" color="#3776AB" />
                 </div>
             </div>
             <Footer github="home.tsx" />

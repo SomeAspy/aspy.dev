@@ -9,6 +9,7 @@ html {
 body {
     margin: 0;
     overflow: hidden;
+    height: 100%;
     background-color: #0f0f0f;
 }
 
@@ -66,7 +67,6 @@ body {
     margin-top: 5vh;
     margin-bottom: auto;
     transition: .5s;
-
 }
 
 .invert {
@@ -74,16 +74,32 @@ body {
 }
 
 .icon {
-    height: 5dvh;
-    width: 5dvh;
-    margin:2dvh;
+    height: 2.25em;
+    width: 2.25em;
     transition: 0.5s;
+    margin-bottom:-2vh;
 }
 
-.icon:hover {
+.icon-container{
+    margin: 2vh;
+    margin-bottom: 0vh;
+}
+
+.icon-container:hover {
     transform: scale(1.5);
-    background-color: #0f0f0f;
-    border-radius: 25%;
     transition: 0.5s;
-    opacity: .5;
+    border-radius: 1vh;
+    background: rgba(0,0,10,0.3);
+    padding:1vh;
+    padding-left: 2vh;
+    padding-right: 2vh;
+    margin:3vh;
+    width: 5vw;
+    transition: .5s;
+}
+
+
+
+.icon-alt-text:hover {
+    color: #f0f0f0;
 }
