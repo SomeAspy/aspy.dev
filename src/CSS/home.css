@@ -86,20 +86,6 @@ body {
 }
 
 .icon-container:hover {
-    transform: scale(1.5);
+    transform: scale(1.2);
     transition: 0.5s;
-    border-radius: 1vh;
-    background: rgba(0,0,10,0.3);
-    padding:1vh;
-    padding-left: 2vh;
-    padding-right: 2vh;
-    margin:3vh;
-    width: 5vw;
-    transition: .5s;
-}
-
-
-
-.icon-alt-text:hover {
-    color: #f0f0f0;
 }
