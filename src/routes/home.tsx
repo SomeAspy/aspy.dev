@@ -1,4 +1,4 @@
-import { JSX, Component } from "solid-js";
+import { JSX } from "solid-js";
 
 import '../CSS/home.css';
 import Footer from '../assets/components/footer/footer.js';
@@ -25,35 +25,17 @@ import VisualStudioCodeLogo from '../assets/SVGs/visualstudiocode.svg?component-
 import ReactLogo from '../assets/SVGs/react.svg?component-solid';
 import ViteLogo from '../assets/SVGs/vite.svg?component-solid';
 
+import { Icon } from "../assets/components/icon/icon.js";
+import { Title } from "../assets/components/title/title.js";
 
-/**
- * A component that renders an SVG
- * @param props.class The class to add to the icon
- * @param props.src The SVG component to use
- * @param props.color The color to use for the icon
- * @param props.href The href to use for the icon
- * @param props.alt The alt text to use for the icon
- * @returns A TSX element containing the icon
- */
-function Icon(props: {src: Component<JSX.SvgSVGAttributes<SVGSVGElement>>, color?: string, alt: string; }): JSX.Element {
-    const defaultColor = "#FFF";
-    return (
-        <div class="icon-container">
-            <props.src class="icon" fill={props.color ? props.color : defaultColor} />
-            <p class="icon-alt-text">{props.alt}</p>
-        </div>
-    );
-}
 
-export function Home(): JSX.Element {
+export default function Home(): JSX.Element {
     return (
         <>
             <div class="background" />
             <Navbar />
-            <div class="title-text">
-                <h1>Hello there.</h1>
-                <h2>My name is Aiden.</h2>
-            </div>
+            <Title text={{ h1: "Hello there.", h2: "My Name is Aiden" }} />
+
             <div class="sub-area">
                 <p>I like to work with computers, and often like to develop various things.</p>
                 <p>Things I like to work with:</p>

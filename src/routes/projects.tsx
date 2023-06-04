@@ -1,6 +1,6 @@
 import { JSX } from "solid-js";
 
-export function Projects(): JSX.Element {
+export default function Projects(): JSX.Element {
     return (
         <div>
             <h1>projects</h1>

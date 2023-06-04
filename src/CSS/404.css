@@ -1,0 +1,11 @@
+@import url(global.css);
+@font-face {
+    font-family: 'Terminal';
+    src: url('../assets/fonts/Terminal.woff2') format('woff2');
+}
+
+
+body {
+    background-color: #051DB5;
+    font-family: 'Terminal', monospace;
+}

@@ -11,7 +11,9 @@ export default function Footer(props: {github: string}) {
                 </a>
             </footer>
             <footer class='copyright'>
-                <p>&copy; Aiden 2021-2023 with love</p>
+                <a href='/license.txt' class='no-link-style'>
+                    <p>&copy; Aiden 2021-2023 with love</p>
+                    </a>
             </footer>
         </>
     );
