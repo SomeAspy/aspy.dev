@@ -1,19 +1,7 @@
-html {
-    overflow-x: hidden;
-    scroll-behavior: smooth;
-    font-family: Manrope, sans-serif;
-}
+@import url(global.css);
 
 body {
-    margin: 0;
-    overflow: hidden;
-    height: 100%;
     background-color: #0f0f0f;
-}
-
-.no-link-style {
-    text-decoration: none;
-    color: inherit;
 }
 .background {
     background:
@@ -32,31 +20,4 @@ body {
     top:0;
     filter:grayscale(100%) blur(4px);
     z-index: -1;
-}
-
-.title-text {
-    font-size:4dvh;
-    text-align: center;
-    position: relative;
-    margin-top: 30dvh;
-    left:47vw;
-    transform: translate(-50%, -50%);
-    line-height: 7dvh;
-    color: #f0f0f0;
-    transition: .5s;
-    margin-left:3vw;
-    margin-right:3vw;
-}
-
-.sub-area {
-    color: #f0f0f0;
-    font-size: 2cap;
-    text-align: center;
-    position: relative;
-    top:-10dvh;
-    left: 50%;
-    transform: translateX(-50%);
-    transition: .5s;
-    margin-left:1dvw;
-    margin-right:1dvw;
 }

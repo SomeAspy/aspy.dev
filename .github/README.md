@@ -6,9 +6,6 @@ Now a complete ground up rewrite in TSX!
 
 It may not look the best but I'm proud of it. I'm not good with reactive libraries or CSS, but its been a lot of fun and a great learning experience working on this. When I started this project I had no idea how CSS, JSX, or TSX worked.
 
-~~I develop this website with Chrome Canary in mind, and also test for Firefox Nightly with lower priority. This is simply due to the market share for the browsers.~~
-I now build this with Firefox Nightly mainly. This is due to Google Chrome's funny ManifestV3 (See https://www.eff.org/deeplinks/2021/12/chrome-users-beware-manifest-v3-deceitful-and-threatening for a not-so-short summary)
-
 ## Hosting
 
 I host the base domain on my own VPS. Subdomains on the site are generally also hosted on my VPS.
@@ -20,7 +17,11 @@ However, the main goals I have for this site are as follows:
 
 ### Modern Standards
 
-One of my goals for the site is to continually use the latest features, for example, WebP, and AVIF or JPEG XL when support is finalized. This website entirely does not support Internet Explorer, for these reasons.
+One of my goals for the site is to continually use the latest features, for example, WebP, and AVIF or JPEG XL when support is finalized. This website will make no efforts to support Internet Explorer, for these reasons. IE support is entirely coincidental.
+
+~~I develop this website with Chrome Canary in mind, and also test for Firefox Nightly with lower priority. This is simply due to the market share for the browsers.~~
+I now build this with Firefox mainly. This is due to Google Chrome's funny ManifestV3 (See https://www.eff.org/deeplinks/2021/12/chrome-users-beware-manifest-v3-deceitful-and-threatening for a not-so-short summary)
+Edge and Chrome will almost never be tested outside of fringe cases.
 
 ### Technical Perfectionism
 
@@ -49,4 +50,4 @@ The internet should be available to anyone and everyone. I aim to make my websit
 
 ### What makes this work?
 
--   The [about page](https://aspy.dev/about) has a websocket connection to a self hosted instance of [Lanyard](https://github.com/Phineas/lanyard) (Dockerized) to grab the discord info
+-   The [about page](https://aspy.dev/about) has a websocket connection to a self hosted instance of [Lanyard](https://github.com/Phineas/lanyard) (Docker) to grab the discord info

@@ -26,17 +26,16 @@ import ReactLogo from '../assets/SVGs/react.svg?component-solid';
 import ViteLogo from '../assets/SVGs/vite.svg?component-solid';
 
 import { Icon } from "../assets/components/icon/icon.js";
+import { Title } from "../assets/components/title/title.js";
 
 
-export function Home(): JSX.Element {
+export default function Home(): JSX.Element {
     return (
         <>
             <div class="background" />
             <Navbar />
-            <div class="title-text">
-                <h1>Hello there.</h1>
-                <h2>My name is Aiden.</h2>
-            </div>
+            <Title text={{ h1: "Hello there.", h2: "My Name is Aiden" }} />
+
             <div class="sub-area">
                 <p>I like to work with computers, and often like to develop various things.</p>
                 <p>Things I like to work with:</p>
