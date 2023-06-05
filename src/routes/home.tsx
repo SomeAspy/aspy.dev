@@ -4,27 +4,6 @@ import '../CSS/home.css';
 import Footer from '../assets/components/footer/footer.js';
 import Navbar from '../assets/components/navbar/navbar.js';
 
-import ArchLogo from '../assets/SVGs/archlinux.svg?component-solid';
-import CloudFlareLogo from '../assets/SVGs/cloudflare.svg?component-solid';
-import GitHubLogo from '../assets/SVGs/github.svg?component-solid';
-import Css3Logo from '../assets/SVGs/css3.svg?component-solid';
-import DockerLogo from '../assets/SVGs/docker.svg?component-solid';
-import Html5Logo from '../assets/SVGs/html5.svg?component-solid';
-import JavaLogo from '../assets/SVGs/java.svg?component-solid';
-import JSLogo from '../assets/SVGs/js.svg?component-solid';
-import LinuxLogo from '../assets/SVGs/linux.svg?component-solid';
-import NodeLogo from '../assets/SVGs/node-js.svg?component-solid';
-import MarkdownLogo from '../assets/SVGs/markdown.svg?component-solid';
-import SolidLogo from '../assets/SVGs/solid.svg?component-solid';
-import TypeScriptLogo from '../assets/SVGs/typescript.svg?component-solid';
-import AutodeskLogo from '../assets/SVGs/autodesk.svg?component-solid';
-import CppLogo from '../assets/SVGs/cplusplus.svg?component-solid';
-import PythonLogo from '../assets/SVGs/python.svg?component-solid';
-import DebianLogo from '../assets/SVGs/debian.svg?component-solid';
-import VisualStudioCodeLogo from '../assets/SVGs/visualstudiocode.svg?component-solid';
-import ReactLogo from '../assets/SVGs/react.svg?component-solid';
-import ViteLogo from '../assets/SVGs/vite.svg?component-solid';
-
 import { Icon } from "../assets/components/icon/icon.js";
 import { Title } from "../assets/components/title/title.js";
 
@@ -40,26 +19,26 @@ export default function Home(): JSX.Element {
                 <p>I like to work with computers, and often like to develop various things.</p>
                 <p>Things I like to work with:</p>
                 <div class="icons">
-                    <Icon src={SolidLogo} alt="SolidJS" color="#2C4F7C" />
-                    <Icon src={Css3Logo} alt="CSS" color="#1572B6" />
-                    <Icon src={Html5Logo} alt="HTML" color="#E34F26" />
-                    <Icon src={JSLogo} alt="JavaScript" color="#F7DF1E" />
-                    <Icon src={MarkdownLogo} alt="Markdown" />
-                    <Icon src={NodeLogo} alt="NodeJS" color="#339933" />
-                    <Icon src={JavaLogo} alt="Java" color="#FC4C02" />
-                    <Icon src={DockerLogo} alt="Docker" color="#2496ED" />
-                    <Icon src={LinuxLogo} alt="Linux" />
-                    <Icon src={ArchLogo} alt="Arch Linux" color="#1793D1" />
-                    <Icon src={CloudFlareLogo} alt="CloudFlare" color="#F38020" />
-                    <Icon src={GitHubLogo} alt="GitHub" />
-                    <Icon src={TypeScriptLogo} alt="TypeScript" color="#3178C6" />
-                    <Icon src={AutodeskLogo} alt="Autodesk" color="#d74e26" />
-                    <Icon src={CppLogo} alt="C++" color="#00599C" />
-                    <Icon src={DebianLogo} alt="Debian" color="#A81D33" />
-                    <Icon src={VisualStudioCodeLogo} alt="Visual Studio Code" color="#007ACC" />
-                    <Icon src={ReactLogo} alt="React" color="#61DAFB" />
-                    <Icon src={ViteLogo} alt="Vite" color="#646CFF" />
-                    <Icon src={PythonLogo} alt="Python" color="#3776AB" />
+                    <Icon file="solid" alt="SolidJS" color="#2C4F7C" />
+                    <Icon file="css3" alt="CSS" color="#1572B6" />
+                    <Icon file="html5" alt="HTML" color="#E34F26" />
+                    <Icon file="js" alt='JavaScript' color="#F7DF1E"/>
+                    <Icon file="markdown" alt="Markdown" />
+                    <Icon file="node-js" alt="NodeJS" color="#339933" />
+                    <Icon file="java" alt="Java"  color="#F80000"/>
+                    <Icon file="docker" alt="Docker" color="#2496ED"/>
+                    <Icon file="linux" alt="Linux" color="#FCC624" />
+                    <Icon file="archlinux" alt="Arch Linux" color="#1793D1" />
+                    <Icon file="cloudflare" alt="Cloudflare" color="#F38020" />
+                    <Icon file="github" alt="GitHub" />
+                    <Icon file="typescript" alt="TypeScript" color="#3178C6" />
+                    <Icon file="autodesk" alt="AutoCAD" />
+                    <Icon file="cplusplus" alt="C++" color="#00599C" />
+                    <Icon file="debian" alt="Debian Linux" color="#A81D33" />
+                    <Icon file="visualstudiocode" alt="VSCode" color="#007ACC" />
+                    <Icon file="react" alt="React" color="#61DAFB" />
+                    <Icon file="vite" alt="Vite" color="#646CFF" />
+                    <Icon file="python" alt="Python" color="#3776AB"/>
                 </div>
             </div>
             <Footer github="home.tsx" />

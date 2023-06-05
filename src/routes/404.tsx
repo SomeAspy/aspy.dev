@@ -3,7 +3,6 @@ import { JSX } from "solid-js";
 import '../CSS/404.css';
 import Footer from '../assets/components/footer/footer.js';
 import Navbar from '../assets/components/navbar/navbar.js';
-import Home from '../assets/SVGs/home.svg?component-solid';
 import { Icon } from "../assets/components/icon/icon";
 import { Title } from "../assets/components/title/title";
 
@@ -19,7 +18,7 @@ export default function FourOhFour(): JSX.Element {
             <div class="sub-area">
                 <div class="icons">
                     <a href="/" class='no-link-style'>
-                        <Icon src={Home} alt="Press to go home" color="#FFF" />
+                        <Icon file="home" alt="Press to go home" color="#FFF" />
                         </a>
                 </div>
 
