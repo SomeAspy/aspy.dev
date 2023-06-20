@@ -25,14 +25,13 @@ export default function Home() {
             <div>
                 <div class='background' />
                 <div class='first-section center'>
-                    <h1>Aiden's Website</h1>
-                    <h2>Aiden Baker</h2>
+                    <h1>Aspy's Website</h1>
                     <h3>Student, full time idiot</h3>
                 </div>
                 <div class='second-section'>
                     <h1 class='header'>Hi!</h1>
                     <p>
-                        My name is Aiden, and I absolutely love fixing things
+                        I go by aspy online, and I absolutely love fixing things
                         and technology, especially computers. I've worked
                         several IT jobs and spend a lot of time helping people
                         with computers. I am studying Computer Science and hope
