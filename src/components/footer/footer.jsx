@@ -11,7 +11,7 @@ export default function Footer(props) {
                 </a>
             </footer>
             <footer class='copyright'>
-                <p>&copy; Aiden Baker 2021-2023</p>
+                <p>&copy; Aiden 2021-2023</p>
             </footer>
         </>
     );
