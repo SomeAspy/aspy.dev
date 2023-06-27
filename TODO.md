@@ -8,9 +8,8 @@
 # NORMAL PRIORITY
 
 -   Comply with https://www.a11yproject.com/checklist/
+-   About page sub-pages (favorite games, contact, etc)
 
 # LOW PRIORITY
-
--   Add text on hover to home page for icons
 
 # PLANS
