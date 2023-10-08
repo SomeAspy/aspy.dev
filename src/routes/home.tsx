@@ -13,11 +13,11 @@ export default function Home(): JSX.Element {
         <>
             <div class="background" />
             <Navbar />
-            <Title text={{ h1: "Hello there.", h2: "My Name is Aiden" }} />
+            <Title text={{ h2: "Hello there.", h3: "My Name is Aiden" }} />
 
             <div class="sub-area">
-                <p>I like to work with computers, and often like to develop various things.</p>
-                <p>Things I like to work with:</p>
+            <h1>I like to work with computers, and often like to develop various things.</h1>
+            <h2>Things I like to work with:</h2>
                 <div class="icons">
                     <Icon file="solid" alt="SolidJS" color="#2C4F7C" />
                     <Icon file="css3" alt="CSS" color="#1572B6" />
