@@ -21,7 +21,3 @@ body {
     filter:grayscale(100%) blur(4px);
     z-index: -1;
 }
-
-p {
-    size: 10px
-}
