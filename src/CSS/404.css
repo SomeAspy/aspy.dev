@@ -1,4 +1,5 @@
-@import url(global.css);
+@import "global.css";
+
 body {
     background-color: #051DB5;
     font-family: 'VT323', monospace;

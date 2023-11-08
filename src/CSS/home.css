@@ -1,8 +1,9 @@
-@import url(global.css);
+@import "global.css";
 
 body {
     background-color: #0f0f0f;
 }
+
 .background {
     background:
         linear-gradient(

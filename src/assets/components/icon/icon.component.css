@@ -21,7 +21,7 @@
 
 .icon-container{
     margin: 2vh;
-    margin-bottom: 0vh;
+    margin-bottom: 0;
     transition: transform .5s ease;
 }
 

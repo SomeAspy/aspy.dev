@@ -4,7 +4,8 @@
     "dev": "vite",
     "build": "vite build",
     "serve": "vite preview",
-    "lint": "eslint -c .eslintrc.json src"
+    "lint": "eslint -c .eslintrc.json src",
+    "csslint": "stylelint \"**/*.css\""
   },
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^6.10.0",
@@ -12,6 +13,8 @@
     "eslint": "^8.53.0",
     "eslint-plugin-jsx-a11y": "^6.8.0",
     "eslint-plugin-solid": "^0.13.0",
+    "stylelint": "^15.11.0",
+    "stylelint-config-standard-scss": "^11.1.0",
     "typescript": "^4.9.5",
     "vite": "^4.5.0",
     "vite-plugin-compression": "^0.5.1",
