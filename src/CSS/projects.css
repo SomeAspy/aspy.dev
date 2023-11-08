@@ -24,13 +24,9 @@ body {
 }
 
 .projects-grid{
-    margin-top: 0;
+    margin-top: -10vh;
     display:flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-}
-
-.title-text {
-    margin-top:20vh!important;
 }

@@ -1,7 +1,7 @@
 .card {
     border-radius: 25px;
+    min-height: 30vh;
     width: 40vh;
-    height: 30vh;
     text-align: center;
     color: rgb(247 247 255);
     background:
@@ -18,7 +18,7 @@
 }
 
 .card-title {
-    font-size: 4em;
+    font-size: 3em;
     margin-top:0;
     margin-bottom: 0;
 }
