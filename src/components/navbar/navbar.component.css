@@ -9,7 +9,7 @@
   width: 100vw;
   height: 5vh;
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(3, 1fr);
 }
 
 .nav-bar a {

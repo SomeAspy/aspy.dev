@@ -110,7 +110,7 @@ body {
   font-family: Roboto, sans-serif;
 }
 
-.contact-item:hover span {
+.contact-item:hover span:not(.contact) {
   display: none;
 }
 
@@ -118,7 +118,7 @@ body {
   display: none;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (width<= 600px) {
   .contact-item {
     width: 80vw;
   }

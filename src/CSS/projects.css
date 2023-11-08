@@ -64,7 +64,7 @@
     transition: 0.4s;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (width<= 600px) {
     .grid-item:hover {
         background:
             linear-gradient(
