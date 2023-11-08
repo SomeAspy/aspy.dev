@@ -1,12 +1,10 @@
 import { JSX } from "solid-js";
 
-import '../CSS/home.css';
-import Footer from '../assets/components/footer/footer.js';
-import Navbar from '../assets/components/navbar/navbar.js';
-
-import { Icon } from "../assets/components/icon/icon.js";
-import { Title } from "../assets/components/title/title.js";
-
+import "../CSS/home.css";
+import Footer from "../assets/components/footer/footer.component.jsx";
+import Navbar from "../assets/components/navbar/navbar.component.jsx";
+import Icon from "../assets/components/icon/icon.component.jsx";
+import Title from "../assets/components/title/title.component.js";
 
 export default function Home(): JSX.Element {
     return (
@@ -27,7 +25,7 @@ export default function Home(): JSX.Element {
                     <Icon file="node-js" alt="NodeJS" color="#339933" />
                     <Icon file="java" alt="Java"  color="#F80000"/>
                     <Icon file="docker" alt="Docker" color="#2496ED"/>
-                    <Icon file="linux" alt="Linux" color="#FCC624" />
+                    <Icon file="linux" alt="Linux" />
                     <Icon file="archlinux" alt="Arch Linux" color="#1793D1" />
                     <Icon file="cloudflare" alt="Cloudflare" color="#F38020" />
                     <Icon file="github" alt="GitHub" />
@@ -38,7 +36,9 @@ export default function Home(): JSX.Element {
                     <Icon file="visualstudiocode" alt="VSCode" color="#007ACC" />
                     <Icon file="react" alt="React" color="#61DAFB" />
                     <Icon file="vite" alt="Vite" color="#646CFF" />
-                    <Icon file="python" alt="Python" color="#3776AB"/>
+                    <Icon file="bash" alt="Bash" color="#4EAA25" />
+                    <Icon file="caddy" alt="Caddy" color="#1F88C0" />
+                    <Icon file="nginx" alt="NGINX" color="#009639" />
                 </div>
             </div>
             <Footer github="home.tsx" />

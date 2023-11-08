@@ -1,10 +1,10 @@
 import { JSX } from "solid-js";
 
-import '../CSS/404.css';
-import Footer from '../assets/components/footer/footer.js';
-import Navbar from '../assets/components/navbar/navbar.js';
-import { Icon } from "../assets/components/icon/icon";
-import { Title } from "../assets/components/title/title";
+import "../CSS/404.css";
+import Footer from "../assets/components/footer/footer.component.jsx";
+import Navbar from "../assets/components/navbar/navbar.component.jsx";
+import Icon from "../assets/components/icon/icon.component";
+import Title from "../assets/components/title/title.component";
 
 export default function FourOhFour(): JSX.Element {
     return (

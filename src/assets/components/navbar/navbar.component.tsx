@@ -1,4 +1,4 @@
-import './navbar.component.css';
+import "./navbar.component.css";
 
 export default function () {
     return (
@@ -9,5 +9,5 @@ export default function () {
             <a class="link" href="/about">About</a>
             <a class="link" href="/contact">Contact</a>
         </div>
-    )
+    );
 }

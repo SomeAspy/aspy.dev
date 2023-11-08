@@ -1,7 +1,7 @@
-import './title.component.css';
-import type { TitleProps } from './titleTyping';
+import "./title.component.css";
+import type { TitleProps } from "./title.component.d.jsx";
 
-export function Title (props: { text: TitleProps; }) {
+export default function Title (props: { text: TitleProps; }) {
     return (
         <div class="title-text">
             {props.text.h1 ? <h1>{props.text.h1}</h1> : null}

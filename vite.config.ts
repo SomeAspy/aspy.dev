@@ -1,15 +1,15 @@
-import { defineConfig } from 'vite';
-import solidPlugin from 'vite-plugin-solid';
-import webfontDownload from 'vite-plugin-webfont-dl';
-import solidSvg from 'vite-plugin-solid-svg';
-import viteCompression from 'vite-plugin-compression';
+import { defineConfig } from "vite";
+import solidPlugin from "vite-plugin-solid";
+import webfontDownload from "vite-plugin-webfont-dl";
+import solidSvg from "vite-plugin-solid-svg";
+import viteCompression from "vite-plugin-compression";
 
 export default defineConfig({
     plugins: [
         solidPlugin(),
         webfontDownload(),
         viteCompression({
-            algorithm: 'brotliCompress',
+            algorithm: "brotliCompress",
             filter: /\.(js|mjs|ts|tsx|json|css|html)$/i,
         }),
         solidSvg({
@@ -19,12 +19,12 @@ export default defineConfig({
                 svgoConfig: {
                     multipass: true,
                     plugins: [
-                        'preset-default',
-                        'cleanupListOfValues',
-                        'removeDimensions',
-                        'removeOffCanvasPaths',
-                        'removeXMLNS',
-                        'reusePaths',
+                        "preset-default",
+                        "cleanupListOfValues",
+                        "removeDimensions",
+                        "removeOffCanvasPaths",
+                        "removeXMLNS",
+                        "reusePaths",
                     ],
                 },
             },
@@ -34,7 +34,7 @@ export default defineConfig({
         port: 3000,
     },
     build: {
-        target: 'esnext',
+        target: "esnext",
     },
     preview: {
         port: 3000,

@@ -25,6 +25,6 @@
   width: 100vw;
 }
 
-a:visited {
+a:visited, a {
   color: #fff;
 }

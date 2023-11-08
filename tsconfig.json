@@ -1,4 +1,8 @@
 {
+  "include": [
+    "**/*.tsx",
+    "**/*.ts"
+  ],
   "compilerOptions": {
     "strict": true,
     "target": "ESNext",
@@ -13,6 +17,6 @@
       "vite-plugin-solid-svg/types"
     ],
     "noEmit": true,
-    "isolatedModules": true
+    "isolatedModules": true,
   }
 }

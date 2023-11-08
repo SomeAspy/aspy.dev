@@ -1,15 +1,16 @@
-# HIGH PRIORITY
+# TO DO
 
--   Setup lanyard
--   Make projects page
--   Make about me page
--   Make contact me page
+## HIGH PRIORITY
 
-# NORMAL PRIORITY
+- Setup lanyard
+- Make about me page
+- Make contact me page
 
--   Comply with https://www.a11yproject.com/checklist/
--   About page sub-pages (favorite games, contact, etc)
+## NORMAL PRIORITY
 
-# LOW PRIORITY
+- Comply with [https://www.a11yproject.com/checklist/](https://www.a11yproject.com/checklist/)
+- About page sub-pages (favorite games, contact, etc)
 
-# PLANS
+## LOW PRIORITY
+
+## PLANS
