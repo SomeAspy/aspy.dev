@@ -14,7 +14,7 @@
     "eslint-plugin-jsx-a11y": "^6.8.0",
     "eslint-plugin-only-error": "^1.0.2",
     "eslint-plugin-solid": "^0.13.0",
-    "prettier": "^3.0.3",
+    "prettier": "^3.1.0",
     "stylelint": "^15.11.0",
     "stylelint-config-standard": "^34.0.0",
     "typescript": "^5.2.2",
