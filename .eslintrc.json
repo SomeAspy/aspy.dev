@@ -2,8 +2,7 @@
     "plugins": [
         "jsx-a11y",
         "solid",
-        "compat",
-        "only-error"
+        "compat"
     ],
     "env": {
         "browser": true
