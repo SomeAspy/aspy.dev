@@ -1,16 +1,16 @@
 import { JSX } from "solid-js";
 
 import "../CSS/404.css";
-import Footer from "../assets/components/footer/footer.component.jsx";
-import Navbar from "../assets/components/navbar/navbar.component.jsx";
-import Icon from "../assets/components/icon/icon.component";
-import Title from "../assets/components/title/title.component";
+import FooterComponent from "../assets/components/footer/footer.component";
+import NavbarComponent from "../assets/components/navbar/navbar.component";
+import IconComponent from "../assets/components/icon/icon.component";
+import TitleComponent from "../assets/components/title/title.component";
 
 export default function FourOhFour(): JSX.Element {
     return (
         <>
-            <Navbar />
-            <Title text={{
+            <NavbarComponent />
+            <TitleComponent text={{
                 h1: "Well, Fuck.",
                 h2: "Something appears to have gone wrong...",
                 h4: "This is quite sub-optimal. Let's pretend this didn't happen."
@@ -18,12 +18,12 @@ export default function FourOhFour(): JSX.Element {
             <div class="sub-area">
                 <div class="icons">
                     <a href="/" class='no-link-style'>
-                        <Icon file="home" alt="Press to go home" color="#FFF" />
+                        <IconComponent file="home" alt="Press to go home" color="#FFF" />
                         </a>
                 </div>
 
             </div>
-            <Footer github="404.tsx" />
+            <FooterComponent github="404.tsx" />
         </>
     );
 }

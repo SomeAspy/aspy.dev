@@ -1,4 +1,4 @@
-@import "global.css";
+@import url("global.css");
 
 body {
     background-color: #051DB5;

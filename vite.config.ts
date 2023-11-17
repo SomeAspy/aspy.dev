@@ -35,6 +35,7 @@ export default defineConfig({
     },
     build: {
         target: "esnext",
+        sourcemap: true,
     },
     preview: {
         port: 3000,

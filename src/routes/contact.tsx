@@ -5,7 +5,7 @@ export default function Contact(): JSX.Element {
     return (
         <>
             <NavbarComponent />
-            <FooterComponent github="about.tsx"/>
+            <FooterComponent github="contact.tsx"/>
         </>
     );
 }

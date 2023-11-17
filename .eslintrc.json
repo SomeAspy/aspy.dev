@@ -1,14 +1,22 @@
 {
     "env": {
         "browser": true,
-        "es2021": true
+        "es6": true
     },
+    "plugins": [
+        "@typescript-eslint",
+        "solid",
+        "jsx-a11y"
+    ],
     "extends": [
         "eslint:recommended",
         "plugin:@typescript-eslint/recommended-type-checked",
         "plugin:solid/typescript",
         "plugin:jsx-a11y/strict"
     ],
+    "settings": {
+        "lintAllEsApis": true
+    },
     "parser": "@typescript-eslint/parser",
     "parserOptions": {
         "ecmaVersion": "latest",
@@ -16,13 +24,9 @@
         "project": true,
         "tsconfigRootDir": "tsconfig.json"
     },
-    "plugins": [
-        "@typescript-eslint",
-        "solid",
-        "jsx-a11y"
-    ],
     "ignorePatterns": [
-        "dist"
+        "dist",
+        "node_modules"
     ],
     "rules": {
         "linebreak-style": [

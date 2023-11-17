@@ -1,10 +1,24 @@
 {
   "include": [
     "**/*.tsx",
-    "**/*.ts"
+    "**/*.ts",
+    "vite.config.js"
   ],
   "compilerOptions": {
+    "allowUnreachableCode": false,
+    "allowUnusedLabels": false,
+    "alwaysStrict": true,
+    "exactOptionalPropertyTypes": true,
+    "noImplicitAny": true,
+    "noImplicitOverride": true,
+    "noImplicitReturns": true,
+    "noImplicitThis": true,
+    "noPropertyAccessFromIndexSignature": true,
+    "noUncheckedIndexedAccess": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
     "strict": true,
+    "useUnknownInCatchVariables": true,
     "target": "ESNext",
     "module": "ESNext",
     "moduleResolution": "node",
@@ -16,7 +30,12 @@
       "vite/client",
       "vite-plugin-solid-svg/types"
     ],
+    "removeComments": true,
     "noEmit": true,
     "isolatedModules": true,
+    "lib": [
+      "DOM",
+      "ESNext"
+    ]
   }
 }

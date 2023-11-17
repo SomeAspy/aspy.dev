@@ -1,6 +1,6 @@
 import "./navbar.component.css";
 
-export default function () {
+export default function() {
     return (
         <div class="navbar">
             <a class="link" href="/">Home</a>

@@ -1,6 +1,6 @@
 import "./footer.component.css";
 
-export default function Footer(props: {github: string}) {
+export default function(props: {github: string}) {
     return (
         <>
             <footer class='source'>
