@@ -6,7 +6,7 @@
     "build": "vite build",
     "serve": "vite preview",
     "lint": "eslint -c .eslintrc.json \"**/*.{ts,tsx}\"",
-    "csslint": "stylelint \"**/*.css\"
+		"csslint": "stylelint \"**/*.css\""
   },
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^6.11.0",
