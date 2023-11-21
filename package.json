@@ -8,7 +8,7 @@
     "csslint": "stylelint \"**/*.css\""
   },
   "devDependencies": {
-    "eslint": "^8.53.0",
+    "eslint": "^8.54.0",
     "eslint-plugin-compat": "^4.2.0",
     "eslint-plugin-jsx-a11y": "^6.8.0",
     "eslint-plugin-solid": "^0.13.0",
