@@ -1,6 +1,6 @@
-import '../CSS/projects.css';
-import NavBar from '../components/navbar/navbar.jsx';
-import Footer from '../components/footer/footer.jsx';
+import "../CSS/projects.css";
+import NavBar from "../components/navbar/navbar.jsx";
+import Footer from "../components/footer/footer.jsx";
 
 function Card(props) {
     return (

@@ -1,6 +1,6 @@
-import NavBar from '../components/navbar/navbar.jsx';
-import Footer from '../components/footer/footer.jsx';
-import '../CSS/404.css';
+import NavBar from "../components/navbar/navbar.jsx";
+import Footer from "../components/footer/footer.jsx";
+import "../CSS/404.css";
 
 export default function () {
     return (

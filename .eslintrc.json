@@ -1,8 +1,7 @@
 {
     "plugins": [
         "jsx-a11y",
-        "solid",
-        "compat"
+        "solid"
     ],
     "env": {
         "browser": true
@@ -10,8 +9,7 @@
     "extends": [
         "eslint:recommended",
         "plugin:jsx-a11y/recommended",
-        "plugin:solid/recommended",
-        "plugin:compat/recommended"
+        "plugin:solid/recommended"
     ],
     "overrides": [],
     "parserOptions": {
@@ -21,6 +19,9 @@
             "jsx": true
         }
     },
+    "ignorePatterns": [
+        "/dist/"
+    ],
     "rules": {
         "indent": [
             "error",
@@ -28,16 +29,13 @@
         ],
         "quotes": [
             "error",
-            "single"
+            "double"
         ],
         "semi": [
             "error",
             "always"
         ],
         "prefer-const": [
-            "error"
-        ],
-        "no-var": [
             "error"
         ]
     }
