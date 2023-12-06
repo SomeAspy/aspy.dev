@@ -1,3 +1,5 @@
 User-agent: *
 Sitemap: https://aspy.dev/sitemap.xml
+
 Disallow: https://aspy.dev/license.txt
+Disallow: https://aspy.dev/contact

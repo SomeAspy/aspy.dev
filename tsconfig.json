@@ -2,7 +2,7 @@
   "include": [
     "**/*.tsx",
     "**/*.ts",
-    "vite.config.js"
+    "vite.config.ts"
   ],
   "compilerOptions": {
     "allowUnreachableCode": false,
