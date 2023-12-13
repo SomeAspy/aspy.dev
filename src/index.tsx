@@ -1,8 +1,7 @@
 import { render } from "solid-js/web";
-import { Routes, Route, Router } from "@solidjs/router";
+import { Route, Router } from "@solidjs/router";
 import { lazy } from "solid-js";
 
-// apparently loading EVERY page at any given moment is default behavior
 const Home = lazy(() => import("./routes/home"));
 const Projects = lazy(() => import("./routes/projects"));
 const About = lazy(() => import("./routes/about"));
@@ -12,13 +11,11 @@ const Contact = lazy(() => import("./routes/contact"));
 render(
     () => (
         <Router>
-            <Routes>
-                <Route path="/" element={<Home />} />
-                <Route path="/projects" element={<Projects />} />
-                <Route path="/about" element={<About />} />
-                <Route path="*" element={<FourOhFour />} />
-                <Route path="/contact" element={<Contact/>}/>
-            </Routes>
+            <Route path="/" component={Home} />
+            <Route path="/projects" component={Projects} />
+            <Route path="/about" component={About} />
+            <Route path="*" component={FourOhFour} />
+            <Route path="/contact" component={Contact}/>
         </Router>
     ),
     document.getElementById("root")!
