@@ -6,10 +6,15 @@ function NavItem(props) {
 
 export default function NavBar() {
     return (
-        <div class="nav-bar">
-            <NavItem link="/" name="Home" />
-            <NavItem link="/projects" name="Projects" />
-            <NavItem link="https://blog.aspy.dev" name="Blog" />
-        </div>
+        <>
+            <div class="nav-bar">
+                <NavItem link="/" name="Home" />
+                <NavItem link="/projects" name="Projects" />
+                <NavItem link="https://blog.aspy.dev" name="Blog" />
+            </div>
+            <a  href="https://staging.aspy.dev" class="staging-available">
+                <div>staging.aspy.dev - The new site is available with minor bugs, check it out!</div>
+            </a>
+        </>
     );
 }

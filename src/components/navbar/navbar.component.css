@@ -31,3 +31,15 @@
 .nav-bar a:hover {
   transform: scale(1.1);
 }
+
+.staging-available {
+  background-color: red;
+  margin-top:5vh;
+  height: 5vh;
+  position: absolute;
+  width: 100vw;
+  text-align: center;
+  font-size: 3vh;
+  font-family: Manrope, sans-serif;
+  opacity: 0.8;
+}
