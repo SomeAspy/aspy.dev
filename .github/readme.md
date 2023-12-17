@@ -39,11 +39,6 @@ Most SVGs I am using come from <https://simpleicons.org/>
 
 The internet should be available to anyone and everyone. I aim to make my website easy to navigate with accessibility tools. To aid me in this, I use the [ESLint A11y plugin.](https://github.com/jsx-eslint/eslint-plugin-jsx-a11y)
 
-#### Installed ESLint Plugins
-
-- [ESLint A11y plugin](https://github.com/jsx-eslint/eslint-plugin-jsx-a11y) - Enforce best accessibility practices
-- [ESLint Solid plugin](https://github.com/solidjs-community/eslint-plugin-solid) - Enforce SolidJS best practices
-
 #### Installed Vite Plugins
 
 - [Vite-Plugin-Compression](https://github.com/vbenjs/vite-plugin-compression)

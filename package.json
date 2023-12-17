@@ -1,7 +1,6 @@
 {
   "type": "module",
   "scripts": {
-    "start": "vite",
     "dev": "vite",
     "build": "vite build",
     "serve": "vite preview",
@@ -24,7 +23,7 @@
     "vite-plugin-webfont-dl": "^3.9.1"
   },
   "dependencies": {
-    "@solidjs/router": "^0.10.3",
+    "@solidjs/router": "^0.10.4",
     "solid-js": "latest"
   }
 }
