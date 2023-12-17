@@ -8,10 +8,9 @@ body {
     margin: 0;
     overflow: hidden;
     height: 100%;
-
 }
 
-.no-link-style {
+.noLinkStyle {
     text-decoration: none;
     color: inherit;
 }

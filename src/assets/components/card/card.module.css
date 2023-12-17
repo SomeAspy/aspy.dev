@@ -18,13 +18,13 @@
     container-type: inline-size;
 }
 
-.card-title {
+.cardTitle {
     font-size: 6cqh;
     margin-top:0;
     margin-bottom: 0;
 }
 
-.card-description {
+.cardDescription {
     margin:2.5%;
     font-size: 5cqw;
 }

@@ -1,4 +1,4 @@
-.title-text {
+.titleText {
     font-size:4dvh;
     text-align: center;
     position: relative;
@@ -10,17 +10,4 @@
     transition: .5s;
     margin-left:3vw;
     margin-right:3vw;
-}
-
-.sub-area {
-    color: #f0f0f0;
-    font-size: 2cap;
-    text-align: center;
-    position: relative;
-    top:-10dvh;
-    left: 50%;
-    transform: translateX(-50%);
-    transition: .5s;
-    margin-left:1dvw;
-    margin-right:1dvw;
 }

@@ -1,4 +1,4 @@
-@import url("global.css");
+@import url("global.module.css");
 
 body {
     background-color: #0f0f0f;
@@ -21,4 +21,27 @@ body {
     top:0;
     filter:grayscale(100%) blur(4px);
     z-index: -1;
+}
+
+.subarea {
+    color: #f0f0f0;
+    font-size: 2cap;
+    text-align: center;
+    position: relative;
+    top:-10dvh;
+    left: 50%;
+    transform: translateX(-50%);
+    transition: .5s;
+    margin-left:1dvw;
+    margin-right:1dvw;
+}
+
+.icons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5vh;
+    margin-bottom: auto;
+    transition: .5s;
 }

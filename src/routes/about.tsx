@@ -1,11 +1,12 @@
-import { JSX } from "solid-js";
-import NavbarComponent from "../assets/components/navbar/navbar.component";
-import FooterComponent from "../assets/components/footer/footer.component";
+import type { JSX } from "solid-js";
+
+import Navbar from "../assets/components/navbar/navbar";
+import Footer from "../assets/components/footer/footer";
 export default function Contact(): JSX.Element {
     return (
         <>
-            <NavbarComponent />
-            <FooterComponent github="about.tsx"/>
+            <Navbar />
+            <Footer github="about.tsx"/>
         </>
     );
 }
