@@ -1,10 +1,10 @@
 import type { JSX } from "solid-js";
 
 import styles from "../CSS/home.module.css";
-import Footer from "../assets/components/footer/footer";
-import Icon from "../assets/components/icon/icon";
-import Title from "../assets/components/title/title";
-import Navbar from "../assets/components/navbar/navbar";
+import Footer from "../components/footer/footer";
+import Icon from "../components/icon/icon";
+import Title from "../components/title/title";
+import Navbar from "../components/navbar/navbar";
 
 export default function Home(): JSX.Element {
     return (

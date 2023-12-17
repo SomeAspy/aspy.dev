@@ -1,7 +1,7 @@
 import type { JSX } from "solid-js";
 
-import Navbar from "../assets/components/navbar/navbar";
-import Footer from "../assets/components/footer/footer";
+import Navbar from "../components/navbar/navbar";
+import Footer from "../components/footer/footer";
 export default function Contact(): JSX.Element {
     return (
         <>

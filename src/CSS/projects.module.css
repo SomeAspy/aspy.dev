@@ -10,7 +10,7 @@ body {
             rgb(0 0 0 / 50%),
             rgb(0 0 0 / 50%)
         ),
-        url("../assets/images/backgroundProjects.webp");
+        url("../images/backgroundProjects.webp");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;

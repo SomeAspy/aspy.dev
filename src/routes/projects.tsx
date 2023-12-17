@@ -1,10 +1,10 @@
 import type { JSX } from "solid-js";
 
 import styles from "../CSS/projects.module.css";
-import Navbar from "../assets/components/navbar/navbar";
-import Title from "../assets/components/title/title";
-import Card from "../assets/components/card/card";
-import Footer from "../assets/components/footer/footer";
+import Navbar from "../components/navbar/navbar";
+import Title from "../components/title/title";
+import Card from "../components/card/card";
+import Footer from "../components/footer/footer";
 
 export default function Projects(): JSX.Element {
     return (

@@ -1,10 +1,10 @@
 import type { JSX } from "solid-js";
 
 import styles from "../CSS/404.module.css";
-import Footer from "../assets/components/footer/footer";
-import Navbar from "../assets/components/navbar/navbar";
-import Icon from "../assets/components/icon/icon";
-import Title from "../assets/components/title/title";
+import Footer from "../components/footer/footer";
+import Navbar from "../components/navbar/navbar";
+import Icon from "../components/icon/icon";
+import Title from "../components/title/title";
 
 const comments =[
     "Well, it does seem there is something to chaos theory after all, yes?",
