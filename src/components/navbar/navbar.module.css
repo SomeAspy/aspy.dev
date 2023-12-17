@@ -10,7 +10,7 @@
   opacity: 0.5;
 }
 
-.navbar a {
+.link {
   margin: 1px;
   color: #fff;
   text-align: center;
@@ -26,6 +26,6 @@
   pointer-events: all;
 }
 
-.navbar a:hover {
+.link:hover {
   transform: scale(1.1);
 }

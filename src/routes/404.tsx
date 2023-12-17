@@ -1,6 +1,6 @@
 import type { JSX } from "solid-js";
 
-import styles from "../CSS/404.module.css";
+import styles from "../CSS/home.module.css";
 import Footer from "../components/footer/footer";
 import Navbar from "../components/navbar/navbar";
 import Icon from "../components/icon/icon";

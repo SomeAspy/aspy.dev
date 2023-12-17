@@ -5,12 +5,8 @@ html {
 }
 
 body {
+    background-color: #0f0f0f;
     margin: 0;
     overflow: hidden;
     height: 100%;
-}
-
-.noLinkStyle {
-    text-decoration: none;
-    color: inherit;
 }

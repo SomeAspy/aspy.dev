@@ -9,5 +9,8 @@
         "multipass",
         "visualstudiocode",
         "webfont"
+    ],
+    "cSpell.ignoreWords": [
+        "Wolfie's"
     ]
 }

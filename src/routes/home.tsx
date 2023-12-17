@@ -33,12 +33,14 @@ export default function Home(): JSX.Element {
                     <Icon file="autodesk" alt="AutoCAD" />
                     <Icon file="cplusplus" alt="C++" color="#00599C" />
                     <Icon file="debian" alt="Debian Linux" color="#A81D33" />
+                    <Icon file="windows" alt="Windows" />
                     <Icon file="visualstudiocode" alt="VSCode" color="#007ACC" />
                     <Icon file="react" alt="React" color="#61DAFB" />
                     <Icon file="vite" alt="Vite" color="#646CFF" />
                     <Icon file="bash" alt="Bash" color="#4EAA25" />
                     <Icon file="caddy" alt="Caddy" color="#1F88C0" />
                     <Icon file="nginx" alt="NGINX" color="#009639" />
+                    <Icon file="python" alt="Python" color="#3776AB" />
                 </div>
             </div>
 

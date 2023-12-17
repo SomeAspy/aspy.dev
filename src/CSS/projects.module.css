@@ -1,8 +1,4 @@
-@import url("global.module.css");
-
-body {
-    background-color: #0f0f0f;
-}
+@import url("global.css");
 
 .background {
     background:

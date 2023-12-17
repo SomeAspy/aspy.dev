@@ -1,5 +1,3 @@
-@import url("../../CSS/global.module.css");
-
 .copyright {
   color: #fff;
   font-family: Manrope, sans-serif;
@@ -25,6 +23,11 @@
   width: 100vw;
 }
 
-a {
+.link {
   color: #fff;
+}
+
+.noLinkStyle {
+  text-decoration: none;
+  color: inherit;
 }

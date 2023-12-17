@@ -29,6 +29,10 @@ export default function Projects(): JSX.Element {
                     title: "dotfiles",
                     description: "Dotfiles are system configs for linux. Mine are aimed primarily at arch and debian."
                 }}url="https://github.com/SomeAspy/dotfiles" />
+                <Card text={{
+                    title: "GiBBy",
+                    description: "the official bot for interacting with Wolfie's Global Badge API"
+                }}url="https://github.com/WolfPlugs/GiBBy" />
             </div>
             <Footer github="projects.tsx" />
         </>
