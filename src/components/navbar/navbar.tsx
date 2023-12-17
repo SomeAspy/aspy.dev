@@ -6,8 +6,6 @@ export default function() {
             <a class={styles.link} href="/">Home</a>
             <a class={styles.link} href="/projects">Projects</a>
             <a class={styles.link} href="https://blog.aspy.dev">Blog</a>
-            <a class={styles.link} href="/about">About</a>
-            <a class={styles.link} href="/contact">Contact</a>
         </div>
     );
 }

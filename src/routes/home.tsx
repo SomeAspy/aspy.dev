@@ -41,6 +41,7 @@ export default function Home(): JSX.Element {
                     <Icon file="nginx" alt="NGINX" color="#009639" />
                 </div>
             </div>
+
             <Footer github="home.tsx" />
         </>
     );
