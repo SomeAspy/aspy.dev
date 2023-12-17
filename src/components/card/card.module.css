@@ -1,0 +1,35 @@
+.card {
+    border-radius: 25px;
+    min-height: 30vh;
+    width: 40vh;
+    text-align: center;
+    color: rgb(247 247 255);
+    background:
+        linear-gradient(
+            rgb(0 0 0 / 50%),
+            rgb(0 0 0 / 50%)
+        );
+    white-space: normal;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    margin:20px;
+    transition: transform .5s ease;
+    container-type: inline-size;
+}
+
+.cardTitle {
+    font-size: 6cqh;
+    margin-top:0;
+    margin-bottom: 0;
+}
+
+.cardDescription {
+    margin:2.5%;
+    font-size: 5cqw;
+}
+
+.card:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+}

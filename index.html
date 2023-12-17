@@ -1,25 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
-
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="theme-color" content="#00ffff" />
-    <link rel="shortcut icon" type="image/svg+xml" href="/src/assets/favicon.svg" />
-    <title>Aiden's Site</title>
-    <meta content="Aiden's Website" property="og:title" />
-    <meta
-      content="I'm a student studying computer networking and computer science. I work as a full time idiot."
-      property="og:description" />
-    <meta content="./src/assets/embed.gif" property="og:image" />
-    <meta name="description" content="Aiden's website. I do things here.">
+    <link rel="shortcut icon" type="image/ico" href="/src/assets/SVGs/favicon.svg" />
+    <title>Aspy.dev</title>
+    <meta content="Aspy's Website" property="og:title" />
+    <meta content="Self-taught full-stack developer" property="og:description" />
+    <meta content="Aspy's Website - I do things here." name="description" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope&display=swap" rel="stylesheet">
+    <html lang="en" />
   </head>
-
   <body>
-    <noscript>This site requires a substantial amount of javascript, you should enable it!</noscript>
-    <div id="aspy.dev"></div>
-
-    <script src="/src/router.jsx" type="module"></script>
+    <noscript>
+      <iframe src="https://www.enable-javascript.com/" style="position:fixed; top:0; left:0; bottom:0; right:0; width:100%; height:100%; border:none; margin:0; padding:0; overflow:hidden; z-index:999999;">
+        Uh oh. Your browser doesn't support iFrame or JavaScript! You should enable JavaScript! 
+      </iframe>
+    </noscript>
+    <div id="root"></div>
+    <script src="/src/index.tsx" type="module"></script>
   </body>
-
 </html>

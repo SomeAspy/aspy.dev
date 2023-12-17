@@ -1,0 +1,21 @@
+.invert {
+    filter: invert(1);
+}
+
+.icon {
+    height: 2.25em;
+    width: 2.25em;
+    transition: 0.5s;
+    margin-bottom:-2vh;
+}
+
+.iconContainer{
+    margin: 2vh;
+    margin-bottom: 0;
+    transition: transform .5s ease;
+}
+
+.iconContainer:hover {
+    transform: scale(1.2);
+    transition: 0.5s;
+}

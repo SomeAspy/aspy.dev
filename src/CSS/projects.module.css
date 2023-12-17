@@ -1,0 +1,32 @@
+@import url("global.module.css");
+
+body {
+    background-color: #0f0f0f;
+}
+
+.background {
+    background:
+        linear-gradient(
+            rgb(0 0 0 / 50%),
+            rgb(0 0 0 / 50%)
+        ),
+        url("../images/backgroundProjects.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    position:fixed;
+    height: 100vh;
+    width: 100vw;
+    top:0;
+    filter:blur(4px);
+    z-index: -1;
+}
+
+.projectsGrid{
+    margin-top: -10vh;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}

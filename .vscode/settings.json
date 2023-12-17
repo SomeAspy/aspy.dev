@@ -1,10 +1,13 @@
 {
     "cSpell.words": [
+        "AOCR",
+        "Automod",
+        "automoderation",
+        "cplusplus",
         "csslint",
-        "Dockerized",
-        "IPogger",
-    ],
-    "editor.codeActionsOnSave": {
-        "source.fixAll": true
-    }
+        "Dotfiles",
+        "multipass",
+        "visualstudiocode",
+        "webfont"
+    ]
 }
