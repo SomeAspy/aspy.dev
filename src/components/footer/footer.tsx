@@ -11,7 +11,7 @@ export default function(props: {github: string}) {
                 </a>
             </footer>
             <footer class={styles.copyright}>
-                <a href='/license.txt' class="noLinkStyle">
+                <a href="https://aspy.dev/license.txt" class={styles.noLinkStyle}>
                     <p>&copy; Aiden 2021-2024 with ❤️</p>
                     </a>
             </footer>
