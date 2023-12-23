@@ -20,7 +20,7 @@ export default function Projects(): JSX.Element {
                 <Card text={{
                     title: "DuckDuckNo",
                     description: "DuckDuckNo is a mock search engine powered by Google CSE. I was able to get a lookalike domain of DuckDuckGo.com so I made this"
-                }} url="https://github.com/SomeAspy/DuckDuckNo" />
+                }} url="https://duckduckno.com" />
                 <Card text={{
                     title: "T-Mail",
                     description: "A simple program written to monitor temperature of a room and update a google spreadsheet with it. It sends emails when temperature is outside of a provided range. "
@@ -31,7 +31,7 @@ export default function Projects(): JSX.Element {
                 }}url="https://github.com/SomeAspy/dotfiles" />
                 <Card text={{
                     title: "GiBBy",
-                    description: "the official bot for interacting with Wolfie's Global Badge API"
+                    description: "The official bot for interacting with Wolfie's Global Badge API"
                 }}url="https://github.com/WolfPlugs/GiBBy" />
             </div>
             <Footer github="projects.tsx" />
