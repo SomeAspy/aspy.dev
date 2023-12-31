@@ -41,7 +41,6 @@ The internet should be available to anyone and everyone. I aim to make my websit
 
 #### Installed Vite Plugins
 
-- [Vite-Plugin-Compression](https://github.com/vbenjs/vite-plugin-compression)
 - [Vite-Plugin-Webfont-DL](https://github.com/feat-agency/vite-plugin-webfont-dl)
 - [Vite-Plugin-Solid](https://github.com/solidjs/vite-plugin-solid)
 - [Vite-Plugin-Solid-SVG](https://github.com/jfgodoy/vite-plugin-solid-svg)
