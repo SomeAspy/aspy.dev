@@ -4,9 +4,8 @@ import webfontDownload from "vite-plugin-webfont-dl";
 import solidSvg from "vite-plugin-solid-svg";
 
 export default defineConfig({
-    plugins: [
+    plugins:[
         solidPlugin(),
-        webfontDownload(),
         solidSvg({
             defaultAsComponent: true,
             svgo: {
@@ -24,6 +23,7 @@ export default defineConfig({
                 },
             },
         }),
+        webfontDownload(),
     ],
     server: {
         port: 3000,
@@ -35,4 +35,4 @@ export default defineConfig({
         target: "esnext",
         sourcemap: true,
     }
-});
+}) ;

@@ -21,14 +21,14 @@
     "useUnknownInCatchVariables": true,
     "target": "ESNext",
     "module": "ESNext",
-    "moduleResolution": "node",
+    "moduleResolution": "Bundler",
     "allowSyntheticDefaultImports": true,
     "esModuleInterop": true,
     "jsx": "preserve",
     "jsxImportSource": "solid-js",
     "types": [
-      "vite/client",
-      "vite-plugin-solid-svg/types"
+      "vite-plugin-solid-svg/types-component-solid",
+      "vite/client"
     ],
     "removeComments": true,
     "noEmit": true,
