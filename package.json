@@ -14,7 +14,7 @@
     "eslint-plugin-solid": "^0.13.1",
     "stylelint": "^16.2.1",
     "stylelint-config-recommended": "^14.0.0",
-    "typescript": "^5.3.3",
+    "typescript": "^5.4.2",
     "vite": "^5.1.4",
     "vite-plugin-solid": "^2.10.1",
     "vite-plugin-solid-svg": "^0.8.0",
