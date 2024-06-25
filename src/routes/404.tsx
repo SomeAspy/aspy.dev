@@ -1,4 +1,4 @@
-import type { JSX } from "solid-js";
+import type {JSX} from "solid-js";
 
 import styles from "../CSS/home.module.css";
 import Footer from "../components/footer/footer";
@@ -6,7 +6,7 @@ import Navbar from "../components/navbar/navbar";
 import Icon from "../components/icon/icon";
 import Title from "../components/title/title";
 
-const comments =[
+const comments = [
     "Well, it does seem there is something to chaos theory after all, yes?",
     "I suspected this could happen but the Administrator just would not listen.",
     "Quick! It's about to go critical!",
@@ -37,17 +37,19 @@ const comments =[
     "Do you smell something burning?",
     "My God, what are you doing?",
     "Who is responsible for this mess?",
-    "Well, do you have any idea what to do next?",
+    "Well, do you have any idea what to do next?"
 ];
 
 export default function FourOhFour(): JSX.Element {
     return (
         <>
             <Navbar />
-            <Title text={{
-                h1: comments[Math.floor(Math.random()*comments.length)]!,
-                h3: "This page doesn't exist on the server!"
-            }} />
+            <Title
+                text={{
+                    h1: comments[Math.floor(Math.random() * comments.length)]!,
+                    h3: "This page doesn't exist on the server!"
+                }}
+            />
             <div class={styles.subarea}>
                 <div class={styles.icons}>
                     <a href="/" class="noLinkStyle">

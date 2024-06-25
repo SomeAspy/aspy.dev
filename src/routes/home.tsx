@@ -1,4 +1,4 @@
-import type { JSX } from "solid-js";
+import type {JSX} from "solid-js";
 
 import styles from "../CSS/home.module.css";
 import Footer from "../components/footer/footer";
@@ -11,7 +11,7 @@ export default function Home(): JSX.Element {
         <>
             <div class={styles.background} />
             <Navbar />
-            <Title text={{ h1: "Hello there.", h2: "My Name is Aiden" }} />
+            <Title text={{h1: "Hello there.", h2: "My Name is Aiden"}} />
 
             <div class={styles.subarea}>
                 <p>I like to work with computers, and often like to develop various things.</p>
@@ -20,11 +20,11 @@ export default function Home(): JSX.Element {
                     <Icon file="solid" alt="SolidJS" color="#2C4F7C" />
                     <Icon file="css3" alt="CSS" color="#1572B6" />
                     <Icon file="html5" alt="HTML" color="#E34F26" />
-                    <Icon file="js" alt='JavaScript' color="#F7DF1E"/>
+                    <Icon file="js" alt="JavaScript" color="#F7DF1E" />
                     <Icon file="markdown" alt="Markdown" />
                     <Icon file="node-js" alt="NodeJS" color="#339933" />
-                    <Icon file="java" alt="Java"  color="#F80000"/>
-                    <Icon file="docker" alt="Docker" color="#2496ED"/>
+                    <Icon file="java" alt="Java" color="#F80000" />
+                    <Icon file="docker" alt="Docker" color="#2496ED" />
                     <Icon file="linux" alt="Linux" />
                     <Icon file="archLinux" alt="Arch Linux" color="#1793D1" />
                     <Icon file="cloudflare" alt="Cloudflare" color="#F38020" />

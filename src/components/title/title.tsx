@@ -1,7 +1,7 @@
 import styles from "./title.module.css";
-import type { TitleProps } from "./title.d";
+import type {TitleProps} from "./title.d";
 
-export default function (props: { text: TitleProps; }) {
+export default function (props: {text: TitleProps}) {
     return (
         <div class={styles.titleText}>
             {props.text.h1 ? <h1>{props.text.h1}</h1> : null}

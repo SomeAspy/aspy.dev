@@ -1,8 +1,8 @@
 {
   "include": [
-    "**/*.tsx",
-    "**/*.ts",
-    "vite.config.ts"
+    "src",
+    "*.ts",
+    "*.js"
   ],
   "compilerOptions": {
     "allowUnreachableCode": false,
@@ -36,6 +36,6 @@
     "lib": [
       "DOM",
       "ESNext"
-    ],
+    ]
   }
 }
