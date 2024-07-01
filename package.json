@@ -27,7 +27,7 @@
     },
     "dependencies": {
         "@solidjs/router": "^0.13.6",
-        "solid-js": "^1.8.17"
+        "solid-js": "^1.8.18"
     },
     "packageManager": "pnpm@9.3.0"
 }
