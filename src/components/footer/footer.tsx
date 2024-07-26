@@ -4,7 +4,7 @@ export default function (props: {github: string}) {
     return (
         <>
             <footer class={styles.source}>
-                This website is{'\u0020' /* Unicode space*/}
+                This website is{"\u0020" /* Unicode space*/}
                 <a
                     class={styles.link}
                     href={`https://github.com/SomeAspy/aspy.dev/blob/main/src/routes/${props.github}`}
