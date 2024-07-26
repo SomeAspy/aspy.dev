@@ -4,10 +4,9 @@ import styles from "./icon.module.css";
 
 export default function Icon(props: {file: string; color?: string; alt: string; extraClass?: string}): JSX.Element {
     const defaultColor = "#FFF";
-    // The icon should never change. however, ideally this wouldn't have to be here.
-
     const Src = lazy(
         async () =>
+            // The icon should never change. however, ideally this wouldn't have to be here.
             (await import(`../../SVGs/${props.file}.svg?component-solid`)) as Promise<{
                 default: Component<JSX.SvgSVGAttributes<SVGSVGElement>>;
             }>
