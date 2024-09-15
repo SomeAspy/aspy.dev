@@ -12,8 +12,7 @@ I host the base domain on a dedicated server from [Hetzner](https://hetzner.com/
 
 ## Goals
 
-Some goals are listed in the [todo.md](/todo.md) file.
-However, the main goals I have for this site are as follows:
+The main goals I have for this site are as follows:
 
 ### Modern Standards
 

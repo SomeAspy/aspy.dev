@@ -3,9 +3,7 @@
 import eslint from "@eslint/js";
 import tseslint from "typescript-eslint";
 import jsxA11y from "eslint-plugin-jsx-a11y";
-import globals from "globals";
-import solid from "eslint-plugin-solid/dist/configs/typescript.js";
-import prettier from "eslint-plugin-prettier/recommended";
+import solid from "eslint-plugin-solid/configs/typescript";
 
 export default tseslint.config(
     eslint.configs.recommended,
@@ -15,12 +13,10 @@ export default tseslint.config(
     ...tseslint.configs.strictTypeChecked,
     ...tseslint.configs.stylisticTypeChecked,
     solid,
-    prettier,
-    {ignores: ["dist"]},
+    {ignores: ["dist", "*.config.js"]},
     {
         ...solid,
         languageOptions: {
-            globals: globals.browser,
             parserOptions: {
                 project: true,
                 tsconfigRootDir: "tsconfig.json"

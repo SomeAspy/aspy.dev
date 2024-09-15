@@ -1,13 +1,6 @@
 name: StyleLint
 
-on:
-    push:
-        branches:
-            - "*"
-    pull_request:
-        branches:
-            - "*"
-
+on: push
 jobs:
     run-linters:
         name: Run linters

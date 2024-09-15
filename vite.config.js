@@ -1,3 +1,5 @@
+//@ts-check
+
 import {defineConfig} from "vite";
 import solidPlugin from "vite-plugin-solid";
 import webfontDownload from "vite-plugin-webfont-dl";
