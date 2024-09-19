@@ -1,43 +1,39 @@
 @import url("global.css");
 
 .background {
-    background:
-        linear-gradient(
-            rgb(0 0 0 / 50%),
-            rgb(0 0 0 / 50%)
-        ),
-        url("../images/backgroundHome.webp");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-    position:fixed;
-    height: 100vh;
-    width: 100vw;
-    top:0;
-    filter:grayscale(100%) blur(4px);
-    z-index: -1;
+	background: linear-gradient(rgb(0 0 0 / 50%), rgb(0 0 0 / 50%)),
+		url("../images/backgroundHome.webp");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	position: fixed;
+	height: 100vh;
+	width: 100vw;
+	top: 0;
+	filter: grayscale(100%) blur(4px);
+	z-index: -1;
 }
 
 .subarea {
-    color: #f0f0f0;
-    font-size: 2cap;
-    text-align: center;
-    position: relative;
-    top:-10dvh;
-    left: 50%;
-    transform: translateX(-50%);
-    transition: .5s;
-    margin-left:1dvw;
-    margin-right:1dvw;
+	color: #f0f0f0;
+	font-size: 2cap;
+	text-align: center;
+	position: relative;
+	top: -10dvh;
+	left: 50%;
+	transform: translateX(-50%);
+	transition: .5s;
+	margin-left: 1dvw;
+	margin-right: 1dvw;
 }
 
 .icons {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    margin-top: 5vh;
-    margin-bottom: auto;
-    transition: .5s;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	margin-top: 5vh;
+	margin-bottom: auto;
+	transition: .5s;
 }

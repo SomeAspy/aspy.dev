@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 5 3">
-<path fill="#21b1ff" d="m0,0h5v3H0"/>
-<path fill="#ffd800" d="m0,0h5v2H0"/>
-<path fill="#ff218c" d="m0,0h5v1H0"/>
+    <path fill="#21b1ff" d="m0,0h5v3H0" />
+    <path fill="#ffd800" d="m0,0h5v2H0" />
+    <path fill="#ff218c" d="m0,0h5v1H0" />
 </svg>

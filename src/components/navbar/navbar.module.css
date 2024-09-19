@@ -1,31 +1,31 @@
 .navbar {
-  pointer-events: all;
-  flex-wrap:wrap;
-  position: absolute;
-  top: 0;
-  width: 100vw;
-  display: flex;
-  justify-content: center;
-  background-color: #141414;
-  opacity: 0.5;
+	pointer-events: all;
+	flex-wrap: wrap;
+	position: absolute;
+	top: 0;
+	width: 100vw;
+	display: flex;
+	justify-content: center;
+	background-color: #141414;
+	opacity: 0.5;
 }
 
 .link {
-  margin: 1px;
-  color: #fff;
-  text-align: center;
-  margin-left: 5vw;
-  margin-right: 5vw;
-  margin-top: 0.3vh;
-  text-decoration: none;
-  font-size: 3dvh;
-  font-family: Manrope, sans-serif;
-  font-weight: 700;
-  transition: all 0.4s;
-  backface-visibility: hidden;
-  pointer-events: all;
+	margin: 1px;
+	color: #fff;
+	text-align: center;
+	margin-left: 5vw;
+	margin-right: 5vw;
+	margin-top: 0.3vh;
+	text-decoration: none;
+	font-size: 3dvh;
+	font-family: Manrope, sans-serif;
+	font-weight: 700;
+	transition: all 0.4s;
+	backface-visibility: hidden;
+	pointer-events: all;
 }
 
 .link:hover {
-  transform: scale(1.1);
+	transform: scale(1.1);
 }

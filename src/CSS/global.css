@@ -1,12 +1,12 @@
 html {
-    overflow-x: hidden;
-    scroll-behavior: smooth;
-    font-family: Manrope, sans-serif;
+	overflow-x: hidden;
+	scroll-behavior: smooth;
+	font-family: Manrope, sans-serif;
 }
 
 body {
-    background-color: #0f0f0f;
-    margin: 0;
-    overflow: hidden;
-    height: 100%;
+	background-color: #0f0f0f;
+	margin: 0;
+	overflow: hidden;
+	height: 100%;
 }

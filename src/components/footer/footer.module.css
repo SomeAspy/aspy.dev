@@ -1,33 +1,34 @@
 .copyright {
-  color: #fff;
-  font-family: Manrope, sans-serif;
-  font-size: 10px;
-  white-space: nowrap;
-  text-align: center;
-  bottom:0%;
-  position:fixed;
-  margin:auto;
-  width: 100vw;
+	color: #fff;
+	font-family: Manrope, sans-serif;
+	font-size: 10px;
+	white-space: nowrap;
+	text-align: center;
+	position: fixed;
+	margin: auto;
+	width: 100vw;
+	position: absolute;
+	padding-top: 2vh;
 }
 
 .source {
-  color: #fff;
-  font-family: Manrope, sans-serif;
-  font-size: 15px;
-  white-space: nowrap;
-  text-align: center;
-  align-items: flex-end;
-  bottom:3%;
-  position:fixed;
-  margin:auto;
-  width: 100vw;
+	color: #fff;
+	font-family: Manrope, sans-serif;
+	font-size: 15px;
+	white-space: nowrap;
+	text-align: center;
+	align-items: flex-end;
+	position: absolute;
+	margin: auto;
+	width: 100vw;
+	padding-top: 1vh;
 }
 
 .link {
-  color: #fff;
+	color: #fff;
 }
 
 .noLinkStyle {
-  text-decoration: none;
-  color: inherit;
+	text-decoration: none;
+	color: inherit;
 }
