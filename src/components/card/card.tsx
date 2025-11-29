@@ -1,6 +1,5 @@
-import styles from "./card.module.css";
-
 import type { CardProps } from "./card.d";
+import styles from "./card.module.css";
 
 export default function (props: CardProps) {
 	return (

@@ -1,7 +1,8 @@
 @import url("global.css");
 
 .background {
-	background: linear-gradient(rgb(0 0 0 / 50%), rgb(0 0 0 / 50%)),
+	background:
+		linear-gradient(rgb(0 0 0 / 50%), rgb(0 0 0 / 50%)),
 		url("../images/backgroundHome.webp");
 	background-position: center;
 	background-repeat: no-repeat;
@@ -23,7 +24,7 @@
 	top: -10dvh;
 	left: 50%;
 	transform: translateX(-50%);
-	transition: .5s;
+	transition: 0.5s;
 	margin-left: 1dvw;
 	margin-right: 1dvw;
 }
@@ -35,5 +36,5 @@
 	align-items: center;
 	margin-top: 5vh;
 	margin-bottom: auto;
-	transition: .5s;
+	transition: 0.5s;
 }

@@ -1,7 +1,8 @@
 @import url("global.css");
 
 .background {
-	background: linear-gradient(rgb(0 0 0 / 50%), rgb(0 0 0 / 50%)),
+	background:
+		linear-gradient(rgb(0 0 0 / 50%), rgb(0 0 0 / 50%)),
 		url("../images/backgroundProjects.webp");
 	background-position: center;
 	background-repeat: no-repeat;
