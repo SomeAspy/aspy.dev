@@ -1,0 +1,40 @@
+---
+import Layout from "../layouts/Layout.astro";
+import { Icon } from "astro-icon/components";
+import Footer from "../components/footer.astro";
+import Navbar from "../components/navbar.astro";
+import Title from "../components/title.astro";
+import icons from "../constants/icons.json";
+---
+
+<Layout>
+	<div class="background"></div>
+	<Navbar />
+	<Title h1="Hello there." h2="My Name is Aiden" />
+	<div class="subarea">
+		<p>
+			I like to work with computers, and often like to develop various
+			things.
+		</p>
+		<p>Things I like to work with:</p>
+		<div class="icons">
+			{
+				icons.map((icon) => (
+					<div class="icon-container">
+						<Icon
+							class="icon"
+							name={icon.file}
+							desc={icon.alt}
+							style={{ color: icon.color }}
+						/>
+						<p>{icon.alt}</p>
+					</div>
+				))
+			}
+		</div>
+	</div>
+	<Footer github="index.astro" />
+</Layout>
+<style>
+	@import "../styles/index.css";
+</style>

@@ -1,0 +1,26 @@
+---
+const { h1, h2, h3, h4 }: Record<string, string> = Astro.props;
+---
+
+<div class="title-text">
+	{h1 ? <h1>{h1}</h1> : null}
+	{h2 ? <h2>{h2}</h2> : null}
+	{h3 ? <h3>{h3}</h3> : null}
+	{h4 ? <h4>{h4}</h4> : null}
+</div>
+
+<style>
+	.title-text {
+		font-size: 4dvh;
+		text-align: center;
+		position: relative;
+		margin-top: 30dvh;
+		left: 47vw;
+		transform: translate(-50%, -50%);
+		line-height: 7dvh;
+		color: #f0f0f0;
+		transition: 0.5s;
+		margin-left: 3vw;
+		margin-right: 3vw;
+	}
+</style>

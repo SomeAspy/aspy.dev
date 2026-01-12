@@ -1,0 +1,42 @@
+---
+import "@fontsource/manrope";
+---
+
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="theme-color" content="#00ffff" />
+        <link rel="shortcut icon" type="image/svg+xml" href="/favicon.svg" />
+        <title>Aspy.dev</title>
+        <meta content="Aspy's Website" property="og:title" />
+        <meta
+            content="Self-taught full-stack developer"
+            property="og:description"
+        />
+        <meta content="Aspy's Website - I do things here." name="description" />
+    </head>
+    <body>
+        <slot />
+        <style>
+            html {
+                overflow-x: hidden;
+                scroll-behavior: smooth;
+                font-family: "Manrope";
+            }
+
+            body {
+                background-color: #0f0f0f;
+                margin: 0;
+                overflow: hidden;
+                height: 100%;
+            }
+
+            .no-link-style {
+                text-decoration: none;
+                color: inherit;
+            }
+        </style>
+    </body>
+</html>

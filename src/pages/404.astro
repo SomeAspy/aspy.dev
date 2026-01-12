@@ -1,0 +1,34 @@
+---
+import Layout from "../layouts/Layout.astro";
+import { Icon } from "astro-icon/components";
+import Footer from "../components/footer.astro";
+import Navbar from "../components/navbar.astro";
+import Title from "../components/title.astro";
+import notFoundStrings from "../constants/404strings.json";
+---
+
+<Layout>
+	<div class="background"></div>
+	<Navbar />
+	<Title
+		h1={notFoundStrings[Math.floor(Math.random() * notFoundStrings.length)]}
+		h3="This page doesn't exist on the server!"
+	/>
+	<div class="subarea">
+		<div class="icons">
+			<a href="/" class="no-link-style">
+				<Icon
+					name="home"
+					desc="Home"
+					class="icon"
+					style={{ color: "#FFF" }}
+				/>
+				<p>Go back home</p>
+			</a>
+		</div>
+	</div>
+	<Footer github="404.astro" />
+</Layout>
+<style>
+	@import "../styles/index.css";
+</style>

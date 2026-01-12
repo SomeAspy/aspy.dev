@@ -1,0 +1,44 @@
+<footer class="source">
+	This website is{"\u0020" /* Unicode space*/}
+	<a
+		class="link"
+		href={`https://github.com/SomeAspy/aspy.dev/blob/main/src/pages/${Astro.props.github}`}
+	>
+		open source
+	</a>
+</footer>
+<footer class="copyright">
+	<a href="/license.txt" class="no-link-style">
+		<p>&copy; Aiden 2021-2024 with &#x2665;&#xfe0f;</p>
+	</a>
+</footer>
+
+<style>
+	.copyright {
+		color: #fff;
+		font-size: 10px;
+		white-space: nowrap;
+		text-align: center;
+		margin: auto;
+		width: 100vw;
+		position: absolute;
+		padding-top: 2vh;
+	}
+
+	.source {
+		color: #fff;
+		font-size: 15px;
+		white-space: nowrap;
+		text-align: center;
+		align-items: flex-end;
+		position: absolute;
+		margin: auto;
+		width: 100vw;
+		padding-top: 1vh;
+		z-index: 10;
+	}
+
+	.link {
+		color: #fff;
+	}
+</style>
