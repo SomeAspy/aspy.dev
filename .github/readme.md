@@ -2,9 +2,9 @@
 
 My Personal website that I work on in my free time.
 
-Now a complete ground up rewrite in TSX!
+Now a complete ground up rewrite in ~~TSX~~ Astro!
 
-It may not look the best but I'm proud of it. I'm not good with reactive libraries or CSS, but its been a lot of fun and a great learning experience working on this. When I started this project I had no idea how CSS, JSX, or TSX worked.
+It may not look the best but I'm proud of it. I'm not good with reactive libraries or CSS, but its been a lot of fun and a great learning experience working on this. When I started this project I had no idea how CSS, JSX, TSX, or Astro worked.
 
 ## Hosting
 
@@ -22,6 +22,11 @@ I build and test this site with Firefox.
 Why not Google Chrome with it's 64% market share? Manifest v3 has forced me to move to Firefox, and it's actually not bad.
 Chrome support is best-effort.
 
+### No Javascript
+
+The web is overrun with javascript.
+By using Astro, it compiles to plain HTML!
+
 ### Unique
 
 I do not use templates or color pallettes. All CSS and TSX is made by me, by hand.
@@ -29,9 +34,3 @@ I do not use templates or color pallettes. All CSS and TSX is made by me, by han
 ### Where do you get the SVGs?
 
 Most SVGs I am using come from <https://simpleicons.org/>
-
-#### Installed Vite Plugins
-
-- [Vite-Plugin-Webfont-DL](https://github.com/feat-agency/vite-plugin-webfont-dl)
-- [Vite-Plugin-Solid](https://github.com/solidjs/vite-plugin-solid)
-- [Vite-Plugin-Solid-SVG](https://github.com/jfgodoy/vite-plugin-solid-svg)
