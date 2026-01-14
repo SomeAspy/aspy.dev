@@ -11,9 +11,10 @@ import Layout from "../layouts/Layout.astro";
 	<div class="background"></div>
 	<Navbar />
 	<Title
-		h1={notFoundStrings[Math.floor(Math.random() * notFoundStrings.length)]}
-		h3="This page doesn't exist on the server!"
+		h1="I'm afraid we'll be deviating a bit from standard analysis procedures today"
+		h2="This page doesn't exist on the server!"
 	/>
+
 	<div class="subarea">
 		<div class="icons">
 			<a href="/" class="no-link-style">
@@ -26,9 +27,22 @@ import Layout from "../layouts/Layout.astro";
 				<p>Go back home</p>
 			</a>
 		</div>
+		<noscript>
+			<h4>
+				The quote is supposed to shuffle on every load, but you have JS
+				off.<br />I can respect that.
+			</h4>
+		</noscript>
 	</div>
 	<Footer github="404.astro" />
 </Layout>
 <style>
 	@import "../styles/index.css";
+	h4 {
+		color: white;
+	}
 </style>
+<script is:inline define:vars={{ notFoundStrings }}>
+	document.querySelector("h1").innerText =
+		notFoundStrings[Math.floor(Math.random() * notFoundStrings.length)];
+</script>
