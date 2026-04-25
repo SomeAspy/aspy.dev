@@ -1,6 +1,6 @@
 ---
-import { Icon } from "astro-icon/components";
 import Footer from "../components/footer.astro";
+import Icon from "../components/icon.astro";
 import Navbar from "../components/navbar.astro";
 import Title from "../components/title.astro";
 import icons from "../constants/icons.json";
@@ -25,7 +25,7 @@ import Layout from "../layouts/Layout.astro";
 							class="icon"
 							name={icon.file}
 							desc={icon.alt}
-							style={{ color: icon.color }}
+							color={icon.color}
 						/>
 						<p>{icon.alt}</p>
 					</div>

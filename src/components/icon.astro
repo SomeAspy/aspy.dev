@@ -1,0 +1,15 @@
+---
+const { name, color, desc } = Astro.props;
+const { default: innerHTML } = await import(`../assets/icons/${name}.svg?raw`);
+---
+
+<svg fill={color} aria-label={desc} class="icon" set:html={innerHTML} />
+
+<style>
+    .icon {
+        height: 2.25em;
+        width: 2.25em;
+        transition: 0.5s;
+        margin-bottom: -2vh;
+    }
+</style>

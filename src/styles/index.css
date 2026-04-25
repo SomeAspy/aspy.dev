@@ -1,7 +1,7 @@
 .background {
 	background:
 		linear-gradient(rgb(0 0 0 / 50%), rgb(0 0 0 / 50%)),
-		url("../images/backgroundHome.webp");
+		url("../assets/images/backgroundHome.webp");
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -35,14 +35,6 @@
 	margin-top: 5vh;
 	margin-bottom: auto;
 	transition: 0.5s;
-}
-
-.icon {
-	height: 2.25em;
-	width: 2.25em;
-	transition: 0.5s;
-	margin-bottom: -2vh;
-	fill: currentColor;
 }
 
 .icon-container {

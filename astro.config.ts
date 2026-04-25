@@ -1,6 +1,12 @@
-import { defineConfig } from "astro/config";
-import icon from "astro-icon";
+import { defineConfig, fontProviders } from "astro/config";
 // https://astro.build/config
 export default defineConfig({
-	integrations: [icon()],
+	fonts: [
+		{
+			provider: fontProviders.fontsource(),
+			name: "Manrope",
+			cssVariable: "--font-manrope",
+		},
+	],
+	integrations: [],
 });

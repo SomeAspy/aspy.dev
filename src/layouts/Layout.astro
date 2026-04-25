@@ -1,5 +1,5 @@
 ---
-import "@fontsource/manrope";
+import { Font } from "astro:assets";
 ---
 
 <!doctype html>
@@ -16,6 +16,7 @@ import "@fontsource/manrope";
             property="og:description"
         />
         <meta content="Aspy's Website - I do things here." name="description" />
+        <Font cssVariable="--font-manrope" />
     </head>
     <body>
         <slot />
@@ -23,7 +24,7 @@ import "@fontsource/manrope";
             html {
                 overflow-x: hidden;
                 scroll-behavior: smooth;
-                font-family: "Manrope";
+                font-family: var(--font-manrope);
             }
 
             body {
